@@ -1,329 +1,254 @@
 {
-    "user": [
-      {
-        "id": "admin",
-        "name": "Admin",
-        "password": "12345",
-        "email": "admin@admin.pl",
-        "gender": "male",
-        "role": "admin",
-        "isactive": true
-      },
-      {
-        "id": "1",
-        "name": "1",
-        "password": "12345",
-        "email": "admin1@admin.pl",
-        "gender": "male",
-        "role": "",
-        "isactive": true
-      },
-      {
-        "id": "2",
-        "name": "2",
-        "password": "12345",
-        "email": "admin2@admin.pl",
-        "gender": "male",
-        "role": "",
-        "isactive": true
-      },
-      {
-        "id": "3",
-        "name": "3",
-        "password": "12345",
-        "email": "admin3@admin.pl",
-        "gender": "male",
-        "role": "",
-        "isactive": true
-      },
-      {
-        "id": "4",
-        "name": "4",
-        "password": "12345",
-        "email": "admin4@admin.pl",
-        "gender": "male",
-        "role": "",
-        "isactive": true
-      },
-      {
-        "id": "5",
-        "name": "5",
-        "password": "12345",
-        "email": "admin5@admin.pl",
-        "gender": "male",
-        "role": "",
-        "isactive": true
-      }
-    ],
-    "role": [
-      {
-        "code": "staff",
-        "name": "Staff"
-      },
-      {
-        "code": "quality",
-        "name": "Quality"
-      }
-    ],
-    "userSettings": [
-      {
-        "id": "admin",
-        "designer": "DeSi",
-        "language": "German",
-        "countries": [
-          "Austria (AUT)",
-          "Bulgaria (BG)"
-        ]
-      }
-    ],
-    "projects": [
-      {
-        "id": 1,
-        "name": "P-0001287 SFH Muller Germany ver A",
-        "creationDate": "2023-03-12T00:00:00.000Z",
-        "updateDate": "2023-03-12T00:00:00.000Z",
-        "caseNumber": 123,
-        "version": "A",
-        "designer": "DeSi",
-        "deadline": "2023-03-12T00:00:00.000Z",
-        "country": "Germany (DE)",
-        "printLanguage": "German"
-      },
-      {
-        "id": 2,
-        "name": "P-0001286 School Warsaw Poland ver C",
-        "date": "2023-08-12T23:29:46.022Z"
-      },
-      {
-        "id": 3,
-        "name": "P-0001285 SFH Kowalski Warsaw Poland ver -",
-        "date": "2023-08-12T23:29:46.022Z"
-      },
-      {
-        "id": 4,
-        "name": "P-0001284 Office Paris France ver -",
-        "date": "2023-08-12T23:29:46.022Z"
-      },
-      {
-        "id": 5,
-        "name": "P-0045678 Office Munchen Germany ver -",
-        "date": "2023-08-12T23:29:46.022Z"
-      },
-      {
-        "caseNumber": 123,
-        "name": "Test Save Muller Germany ver A",
-        "country": "Germany (DE)",
-        "version": "A",
-        "deadline": "2023-03-12T00:00:00.000Z",
-        "designer": "DeSi",
-        "printLanguage": "German",
-        "id": 6
-      },
-      {
-        "caseNumber": 123,
-        "name": "TEST 4",
-        "country": "Germany (DE)",
-        "version": "B",
-        "deadline": "2023-03-12T00:00:00.000Z",
-        "designer": "DeSi",
-        "printLanguage": "German",
-        "updateDate": "2023-08-12T23:29:46.022Z",
-        "id": 7
-      },
-      {
-        "caseNumber": "5",
-        "name": "5",
-        "country": "Adria (HR, SV, RS)",
-        "version": "5",
-        "deadline": "2001-04-30T22:00:00.000Z",
-        "designer": "Admin",
-        "printLanguage": "English",
-        "updateDate": "2023-08-12T22:31:22.466Z",
-        "id": 8
-      },
-      {
-        "caseNumber": "6",
-        "name": "6",
-        "country": "Adria (HR, SV, RS)",
-        "version": "6",
-        "deadline": "2001-05-31T22:00:00.000Z",
-        "designer": "Admin",
-        "printLanguage": "English",
-        "updateDate": "2023-08-12T22:34:26.416Z",
-        "id": 9
-      },
-      {
-        "caseNumber": "4",
-        "name": "4",
-        "country": "Adria (HR, SV, RS)",
-        "version": "4",
-        "deadline": "2001-03-31T22:00:00.000Z",
-        "designer": "Admin",
-        "printLanguage": "English",
-        "updateDate": "2023-08-12T22:35:32.346Z",
-        "id": 10
-      },
-      {
-        "caseNumber": "h",
-        "name": "h",
-        "country": "Bulgaria (BG)",
-        "version": "h",
-        "deadline": "2023-08-08T22:00:00.000Z",
-        "designer": "Admin",
-        "printLanguage": "English",
-        "updateDate": "2023-08-12T23:27:20.919Z",
-        "id": 11
-      },
-      {
-        "caseNumber": "h",
-        "name": "h",
-        "country": "Adria (HR, SV, RS)",
-        "version": "h",
-        "deadline": "2023-08-08T22:00:00.000Z",
-        "designer": "Admin",
-        "printLanguage": "German",
-        "updateDate": "2023-08-12T23:27:44.486Z",
-        "id": 12
-      }
-    ],
-    "lastProjects": [
-      {
-        "id": "admin",
-        "projectsId": [
-          1,
-          2,
-          3,
-          6,
-          7
-        ]
-      }
-    ],
-    "userSettingsDictionaries": [
-      {
-        "id": "languages",
-        "values": [
-          "English",
-          "German",
-          "Hungarian"
-        ]
-      },
-      {
-        "id": "countries",
-        "values": [
-          "Adria (HR, SV, RS)",
-          "Austria (AUT)",
-          "Bulgaria (BG)",
-          "Czech Rep. (CZ)",
-          "Denmark (DK)",
-          "Estonia (EE)",
-          "Finland (FI)",
-          "France (FR)",
-          "Germany (DE)",
-          "Hungary (HU)",
-          "Latvia (LV)",
-          "Lithuania (LT)",
-          "Norway (NO)",
-          "Portugal (PT)",
-          "Romania (RO)",
-          "Slovakia (SK)",
-          "Spain (ES)",
-          "Sweden (SWE)",
-          "UK",
-          "North America (UNA)",
-          "InternationalSales (IS)",
-          "Ukraine (UA)",
-          "Poland (PL)",
-          "Russia (RU)"
-        ]
-      },
-      {
-        "id": "pipestype",
-        "values": [
-          "PE-Xa",
-          "PE-Xb",
-          "MLC",
-          "PE-RT",
-          "HDPE"
-        ]
-      },
-      {
-        "id": "PE-Xa",
-        "values": [
-          "9,9x1,1",
-          "14x2,0",
-          "16x2,0",
-          "17x2,0",
-          "20x2,0",
-          "25x2,3",
-          "32x2,9",
-          "40x3,7",
-          "50x4,6",
-          "63x5,8",
-          "75x6,8",
-          "90x8,2",
-          "110x10,0"
-        ]
-      },
-      {
-        "id": "PE-Xb",
-        "values": [
-          "25x2,3"
-        ]
-      },
-      {
-        "id": "MLC",
-        "values": [
-          "12x1,6",
-          "14x2,0",
-          "16x2,0",
-          "18x2,0",
-          "20x2,25",
-          "25x2,5",
-          "32x3,0",
-          "40x4,0",
-          "50x4,5",
-          "63x6,0",
-          "75x7,5",
-          "90x8,5",
-          "110x10,0"
-        ]
-      },
-      {
-        "id": "PE-Xb",
-        "values": [
-          "25x2,3"
-        ]
-      },
-      {
-        "id": "PE-RT",
-        "values": [
-          "14x2,0",
-          "16x2,0",
-          "20x2,0"
-        ]
-      },
-      {
-        "id": "HDPE",
-        "values": [
-          "75x6,8",
-          "110x6,6",
-          "160x9,5"
-        ]
-      },
-      {
-        "id": "name",
-        "values": [
-          "Manifold",
-          "Part"
-        ]
-      },
-      {
-        "id": "fluid",
-        "values": [
-          "Water",
-          "Glycol ethylene",
-          "Glycol propylene"
-        ]
-      }
-    ]
-  }
+  "user": [
+    {
+      "id": "admin",
+      "name": "Admin",
+      "password": "12345",
+      "email": "admin@admin.pl",
+      "gender": "male",
+      "role": "admin",
+      "isactive": true
+    },
+    {
+      "id": "1",
+      "name": "1",
+      "password": "12345",
+      "email": "admin1@admin.pl",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "2",
+      "name": "2",
+      "password": "12345",
+      "email": "admin2@admin.pl",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "3",
+      "name": "3",
+      "password": "12345",
+      "email": "admin3@admin.pl",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "4",
+      "name": "4",
+      "password": "12345",
+      "email": "admin4@admin.pl",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "5",
+      "name": "5",
+      "password": "12345",
+      "email": "admin5@admin.pl",
+      "gender": "male",
+      "role": "",
+      "isactive": true
+    }
+  ],
+  "role": [
+    {
+      "code": "staff",
+      "name": "Staff"
+    },
+    {
+      "code": "quality",
+      "name": "Quality"
+    }
+  ],
+  "userSettings": [
+    {
+      "id": "admin",
+      "designer": "DeSi",
+      "language": "German",
+      "countries": [
+        "Austria (AUT)",
+        "Bulgaria (BG)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "caseNumber": 123,
+      "name": "P-0001287 SFH Muller Germany ver A",
+      "country": "Germany (DE)",
+      "version": "A",
+      "deadline": "2023-03-12T00:00:00.000Z",
+      "designer": "DeSi",
+      "printLanguage": "German",
+      "updateDate": "2023-08-15T16:43:24.654Z",
+      "systemPanels": [],
+      "systemSpecials": [
+        5
+      ],
+      "systemSports": [],
+      "id": 1
+    },
+    {
+      "caseNumber": 123,
+      "name": "TEST 4",
+      "country": "Germany (DE)",
+      "version": "B",
+      "deadline": "2023-03-12T00:00:00.000Z",
+      "designer": "DeSi",
+      "printLanguage": "German",
+      "updateDate": "2023-08-15T20:36:50.132Z",
+      "systemPanels": [
+        1
+      ],
+      "systemSpecials": [
+        5
+      ],
+      "systemSports": [
+        10
+      ],
+      "id": 7
+    }
+  ],
+  "lastProjects": [
+    {
+      "id": "admin",
+      "projectsId": [
+        1,
+        7
+      ]
+    }
+  ],
+  "userSettingsDictionaries": [
+    {
+      "id": "languages",
+      "values": [
+        "English",
+        "German",
+        "Hungarian"
+      ]
+    },
+    {
+      "id": "countries",
+      "values": [
+        "Adria (HR, SV, RS)",
+        "Austria (AUT)",
+        "Bulgaria (BG)",
+        "Czech Rep. (CZ)",
+        "Denmark (DK)",
+        "Estonia (EE)",
+        "Finland (FI)",
+        "France (FR)",
+        "Germany (DE)",
+        "Hungary (HU)",
+        "Latvia (LV)",
+        "Lithuania (LT)",
+        "Norway (NO)",
+        "Portugal (PT)",
+        "Romania (RO)",
+        "Slovakia (SK)",
+        "Spain (ES)",
+        "Sweden (SWE)",
+        "UK",
+        "North America (UNA)",
+        "InternationalSales (IS)",
+        "Ukraine (UA)",
+        "Poland (PL)",
+        "Russia (RU)"
+      ]
+    },
+    {
+      "id": "pipestype",
+      "values": [
+        "PE-Xa",
+        "PE-Xb",
+        "MLC",
+        "PE-RT",
+        "HDPE"
+      ]
+    },
+    {
+      "id": "PE-Xa",
+      "values": [
+        "9,9x1,1",
+        "14x2,0",
+        "16x2,0",
+        "17x2,0",
+        "20x2,0",
+        "25x2,3",
+        "32x2,9",
+        "40x3,7",
+        "50x4,6",
+        "63x5,8",
+        "75x6,8",
+        "90x8,2",
+        "110x10,0"
+      ]
+    },
+    {
+      "id": "PE-Xb",
+      "values": [
+        "25x2,3"
+      ]
+    },
+    {
+      "id": "MLC",
+      "values": [
+        "12x1,6",
+        "14x2,0",
+        "16x2,0",
+        "18x2,0",
+        "20x2,25",
+        "25x2,5",
+        "32x3,0",
+        "40x4,0",
+        "50x4,5",
+        "63x6,0",
+        "75x7,5",
+        "90x8,5",
+        "110x10,0"
+      ]
+    },
+    {
+      "id": "PE-Xb",
+      "values": [
+        "25x2,3"
+      ]
+    },
+    {
+      "id": "PE-RT",
+      "values": [
+        "14x2,0",
+        "16x2,0",
+        "20x2,0"
+      ]
+    },
+    {
+      "id": "HDPE",
+      "values": [
+        "75x6,8",
+        "110x6,6",
+        "160x9,5"
+      ]
+    },
+    {
+      "id": "name",
+      "values": [
+        "Manifold",
+        "Part"
+      ]
+    },
+    {
+      "id": "fluid",
+      "values": [
+        "Water",
+        "Glycol ethylene",
+        "Glycol propylene"
+      ]
+    }
+  ]
+}
