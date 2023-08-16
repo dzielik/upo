@@ -86,11 +86,7 @@
       "designer": "DeSi",
       "printLanguage": "German",
       "updateDate": "2023-08-15T16:43:24.654Z",
-      "systemPanels": [],
-      "systemSpecials": [
-        5
-      ],
-      "systemSports": [],
+      "systems": [],
       "id": 1
     },
     {
@@ -101,14 +97,10 @@
       "deadline": "2023-03-12T00:00:00.000Z",
       "designer": "DeSi",
       "printLanguage": "German",
-      "updateDate": "2023-08-15T20:36:50.132Z",
-      "systemPanels": [
-        1
-      ],
-      "systemSpecials": [
-        5
-      ],
-      "systemSports": [
+      "updateDate": "2023-08-16T06:02:51.804Z",
+      "systems": [
+        1,
+        7,
         10
       ],
       "id": 7
