@@ -78,21 +78,21 @@
   ],
   "projects": [
     {
-      "caseNumber": 123,
-      "name": "P-0001287 SFH Muller Germany ver A",
+      "caseNumber": "P-0001287",
+      "name": "SFH Muller",
+      "deadline": "2023-08-07T22:00:00.000Z",
       "country": "Germany (DE)",
       "version": "A",
-      "deadline": "2023-03-12T00:00:00.000Z",
+      "currentTitle": "P-0001287 SFH Muller Germany (DE) ver. A",
       "designer": "DeSi",
       "printLanguage": "German",
-      "updateDate": "2023-08-22T19:05:36.955Z",
+      "updateDate": "2023-08-25T08:41:17.496Z",
       "systems": [
         2,
         5,
         6,
         7
       ],
-      "id": 1,
       "subzones": [
         {
           "position": 1,
@@ -182,22 +182,26 @@
           "thickness": "",
           "lambda": ""
         }
-      ]
+      ],
+      "creator": "Admin",
+      "id": 1
     },
     {
       "caseNumber": 123,
       "name": "TEST 4",
+      "deadline": "2023-03-11T23:00:00.000Z",
       "country": "Germany (DE)",
       "version": "B",
-      "deadline": "2023-03-12T00:00:00.000Z",
+      "currentTitle": "123 TEST 4 Germany (DE) ver. B",
       "designer": "DeSi",
       "printLanguage": "German",
-      "updateDate": "2023-08-16T06:02:51.804Z",
+      "updateDate": "2023-08-25T08:42:42.892Z",
       "systems": [
         1,
         7,
         10
       ],
+      "creator": "Admin",
       "id": 7
     }
   ],
@@ -210,33 +214,19 @@
       ]
     }
   ],
-  "segments": [
+  "segments": [],
+  "manifolds": [
     {
-      "room": "123",
-      "comment": "sdvsdfvsdfv",
-      "system": 5,
-      "pipeLenghtToManifold": "3",
-      "connectionType": "Classic",
-      "segmentSource": "From template",
-      "variant": "Loop + Feed pipe (Two subzones)",
-      "checkBoxHeating": true,
-      "checkBoxCooling": "",
+      "name": "Manifold",
+      "number": "12",
+      "comment": "wefrferf",
+      "fluid": "Water",
+      "concentration": "",
+      "manifoldType": "1",
+      "manifoldAssembyMethod": "on wall",
       "id": 1
-    },
-    {
-      "room": "d",
-      "comment": "d",
-      "system": 5,
-      "pipeLenghtToManifold": "3",
-      "connectionType": "Classic",
-      "segmentSource": "From template",
-      "variant": "One Loop (One subzone)",
-      "checkBoxHeating": true,
-      "checkBoxCooling": "",
-      "id": 3
     }
   ],
-  "manifolds": [],
   "userSettingsDictionaries": [
     {
       "id": "languages",
