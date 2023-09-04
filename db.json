@@ -93,6 +93,7 @@
         6,
         7
       ],
+      "creator": "Admin",
       "subzones": [
         {
           "id": 2,
@@ -139,7 +140,6 @@
           "coolingQd": "30,8"
         }
       ],
-      "creator": "Admin",
       "id": 1
     },
     {
@@ -164,10 +164,24 @@
   "lastProjects": [
     {
       "id": "admin",
-      "projectsId": [
-        1,
-        7
+      "projects": [
+        {
+          "id": 1,
+          "title": "P-0001287 SFH Muller Germany (DE) ver. A",
+          "updateDate": "2023-08-25T08:41:17.496Z",
+          "touchDate": "2023-09-04T22:42:18.401Z"
+        },
+        {
+          "id": 7,
+          "title": "123 TEST 4 Germany (DE) ver. B",
+          "updateDate": "2023-09-04T22:40:15.472Z",
+          "touchDate": "2023-09-04T22:42:15.073Z"
+        }
       ]
+    },
+    {
+      "id": "test",
+      "projects": null
     }
   ],
   "segments": [],
