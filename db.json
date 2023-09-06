@@ -151,13 +151,46 @@
       "currentTitle": "123 TEST 4 Germany (DE) ver. B",
       "designer": "DeSi",
       "printLanguage": "German",
-      "updateDate": "2023-08-25T08:42:42.892Z",
+      "updateDate": "2023-09-05T23:32:05.579Z",
       "systems": [
         1,
         7,
-        10
+        10,
+        2,
+        3,
+        8
       ],
       "creator": "Admin",
+      "subzones": [
+        {
+          "id": 1,
+          "position": 1,
+          "no": "1",
+          "system": 1,
+          "comment": "",
+          "heating": true,
+          "cooling": false,
+          "pipe": "",
+          "pipeSpacing": "",
+          "dimension": "",
+          "heatingTi": "1",
+          "heatingTs": "1",
+          "heatingTr": "1",
+          "heatingQu": "",
+          "heatingQd": "1",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
+          "thickness": "",
+          "lambda": ""
+        }
+      ],
+      "manifolds": [
+        7,
+        9
+      ],
       "id": 7
     }
   ],
@@ -166,16 +199,16 @@
       "id": "admin",
       "projects": [
         {
+          "id": 7,
+          "title": "123 TEST 4 Germany (DE) ver. B",
+          "updateDate": "2023-09-05T23:32:05.579Z",
+          "touchDate": "2023-09-06T00:03:13.046Z"
+        },
+        {
           "id": 1,
           "title": "P-0001287 SFH Muller Germany (DE) ver. A",
           "updateDate": "2023-08-25T08:41:17.496Z",
-          "touchDate": "2023-09-04T22:42:18.401Z"
-        },
-        {
-          "id": 7,
-          "title": "123 TEST 4 Germany (DE) ver. B",
-          "updateDate": "2023-09-04T22:40:15.472Z",
-          "touchDate": "2023-09-04T22:42:15.073Z"
+          "touchDate": "2023-09-05T23:20:00.517Z"
         }
       ]
     },
@@ -188,13 +221,21 @@
   "manifolds": [
     {
       "name": "Manifold",
-      "number": "12",
-      "comment": "wefrferf",
-      "fluid": "Water",
+      "number": "1",
+      "comment": "",
+      "fluid": 1,
       "concentration": "",
-      "manifoldType": "1",
-      "manifoldAssembyMethod": "on wall",
-      "id": 1
+      "manifoldType": 1,
+      "id": 7
+    },
+    {
+      "name": "Manifold",
+      "number": "3",
+      "comment": "",
+      "fluid": 1,
+      "concentration": "",
+      "manifoldType": 1,
+      "id": 9
     }
   ],
   "userSettingsDictionaries": [
@@ -307,14 +348,6 @@
         "75x6,8",
         "110x6,6",
         "160x9,5"
-      ]
-    },
-    {
-      "id": "fluid",
-      "values": [
-        "Water",
-        "Glycol ethylene",
-        "Glycol propylene"
       ]
     },
     {
