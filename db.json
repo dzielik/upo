@@ -138,9 +138,45 @@
           "coolingTr": "19,5",
           "coolingQu": "3,1",
           "coolingQd": "30,8"
+        },
+        {
+          "id": 3,
+          "position": 3,
+          "no": "23",
+          "system": 6,
+          "comment": "fdgsgsg",
+          "heating": true,
+          "cooling": false,
+          "pipe": "MLC",
+          "pipeSpacing": "123",
+          "dimension": "14x2,0",
+          "heatingTi": "21",
+          "heatingTs": "45",
+          "heatingTr": "30",
+          "heatingQu": "45",
+          "heatingQd": "5",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
+          "thickness": "",
+          "lambda": ""
         }
       ],
-      "id": 1
+      "id": 1,
+      "manages": {
+        "creator": "admin",
+        "currentOwner": "2",
+        "supportTeam": [
+          "3",
+          "4"
+        ],
+        "status": 1
+      },
+      "manifolds": [
+        10
+      ]
     },
     {
       "caseNumber": 123,
@@ -188,8 +224,9 @@
         }
       ],
       "manifolds": [
-        7,
-        9
+        1,
+        2,
+        3
       ],
       "id": 7
     }
@@ -199,16 +236,16 @@
       "id": "admin",
       "projects": [
         {
-          "id": 7,
-          "title": "123 TEST 4 Germany (DE) ver. B",
-          "updateDate": "2023-09-05T23:32:05.579Z",
-          "touchDate": "2023-09-06T00:03:13.046Z"
-        },
-        {
           "id": 1,
           "title": "P-0001287 SFH Muller Germany (DE) ver. A",
           "updateDate": "2023-08-25T08:41:17.496Z",
-          "touchDate": "2023-09-05T23:20:00.517Z"
+          "touchDate": "2023-09-06T10:26:37.817Z"
+        },
+        {
+          "id": 7,
+          "title": "123 TEST 4 Germany (DE) ver. B",
+          "updateDate": "2023-09-05T23:32:05.579Z",
+          "touchDate": "2023-09-06T10:26:19.304Z"
         }
       ]
     },
@@ -217,25 +254,53 @@
       "projects": null
     }
   ],
-  "segments": [],
+  "segments": [
+    {
+      "room": "12",
+      "comment": "sfdsfsdf",
+      "system": 6,
+      "pipeLenghtToManifold": "3",
+      "connectionType": "Tichelmann",
+      "segmentSource": "From template",
+      "variant": "Variable diameter",
+      "checkBoxHeating": true,
+      "checkBoxCooling": "",
+      "id": 1
+    }
+  ],
   "manifolds": [
     {
+      "id": 1,
+      "position": 1,
       "name": "Manifold",
       "number": "1",
       "comment": "",
       "fluid": 1,
       "concentration": "",
-      "manifoldType": 1,
-      "id": 7
+      "manifoldType": 2,
+      "manifoldAssemblyMethod": "On wall"
     },
     {
-      "name": "Manifold",
-      "number": "3",
+      "id": 2,
+      "position": 2,
+      "name": "Part",
+      "number": "2",
       "comment": "",
       "fluid": 1,
       "concentration": "",
-      "manifoldType": 1,
-      "id": 9
+      "manifoldType": "",
+      "manifoldAssemblyMethod": ""
+    },
+    {
+      "id": 3,
+      "position": 3,
+      "name": "Manifold",
+      "number": "5",
+      "comment": "",
+      "fluid": 1,
+      "concentration": "",
+      "manifoldType": 3,
+      "manifoldAssemblyMethod": "On wall"
     }
   ],
   "userSettingsDictionaries": [
