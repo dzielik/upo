@@ -175,6 +175,7 @@
         "status": 1
       },
       "manifolds": [
+        4
       ]
     },
     {
@@ -238,7 +239,7 @@
           "id": 1,
           "title": "P-0001287 SFH Muller Germany (DE) ver. A",
           "updateDate": "2023-08-25T08:41:17.496Z",
-          "touchDate": "2023-09-06T23:24:51.319Z"
+          "touchDate": "2023-09-06T23:36:14.095Z"
         },
         {
           "id": 7,
@@ -299,6 +300,17 @@
       "fluid": 1,
       "concentration": "",
       "manifoldType": 3,
+      "manifoldAssemblyMethod": "On wall"
+    },
+    {
+      "id": 4,
+      "position": 1,
+      "name": "Manifold",
+      "number": "3",
+      "comment": "",
+      "fluid": 1,
+      "concentration": "",
+      "manifoldType": 2,
       "manifoldAssemblyMethod": "On wall"
     }
   ],
