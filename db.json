@@ -175,7 +175,9 @@
         "status": 1
       },
       "manifolds": [
-        4
+        4,
+        7,
+        8
       ]
     },
     {
@@ -236,16 +238,16 @@
       "id": "admin",
       "projects": [
         {
-          "id": 1,
-          "title": "P-0001287 SFH Muller Germany (DE) ver. A",
-          "updateDate": "2023-08-25T08:41:17.496Z",
-          "touchDate": "2023-09-06T23:36:14.095Z"
-        },
-        {
           "id": 7,
           "title": "123 TEST 4 Germany (DE) ver. B",
           "updateDate": "2023-09-05T23:32:05.579Z",
-          "touchDate": "2023-09-06T10:26:19.304Z"
+          "touchDate": "2023-09-07T06:27:07.264Z"
+        },
+        {
+          "id": 1,
+          "title": "P-0001287 SFH Muller Germany (DE) ver. A",
+          "updateDate": "2023-08-25T08:41:17.496Z",
+          "touchDate": "2023-09-07T06:26:59.893Z"
         }
       ]
     },
@@ -307,6 +309,28 @@
       "position": 1,
       "name": "Manifold",
       "number": "3",
+      "comment": "",
+      "fluid": 1,
+      "concentration": "",
+      "manifoldType": 2,
+      "manifoldAssemblyMethod": "On wall"
+    },
+    {
+      "id": 7,
+      "position": 2,
+      "name": "Manifold",
+      "number": "3",
+      "comment": "",
+      "fluid": 1,
+      "concentration": "",
+      "manifoldType": 2,
+      "manifoldAssemblyMethod": "On wall"
+    },
+    {
+      "id": 8,
+      "position": 3,
+      "name": "Manifold",
+      "number": "4",
       "comment": "",
       "fluid": 1,
       "concentration": "",
