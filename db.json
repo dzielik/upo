@@ -2,7 +2,7 @@
   "user": [
     {
       "id": "admin",
-      "name": "Admin",
+      "name": "Admin Nowak",
       "password": "EknzZB3S0Ek4Qe0",
       "email": "admin@admin.pl",
       "gender": "male",
@@ -11,7 +11,7 @@
     },
     {
       "id": "1",
-      "name": "1",
+      "name": "Krzysztof Nowak",
       "password": "12345",
       "email": "admin1@admin.pl",
       "gender": "male",
@@ -20,7 +20,7 @@
     },
     {
       "id": "2",
-      "name": "2",
+      "name": "Mateusz Nowak",
       "password": "12345",
       "email": "admin2@admin.pl",
       "gender": "male",
@@ -29,7 +29,7 @@
     },
     {
       "id": "3",
-      "name": "3",
+      "name": "Tomasz Nowak",
       "password": "12345",
       "email": "admin3@admin.pl",
       "gender": "male",
@@ -38,7 +38,7 @@
     },
     {
       "id": "4",
-      "name": "4",
+      "name": "Filip Nowak",
       "password": "12345",
       "email": "admin4@admin.pl",
       "gender": "male",
@@ -47,7 +47,7 @@
     },
     {
       "id": "5",
-      "name": "5",
+      "name": "tadeusz Nowak",
       "password": "12345",
       "email": "admin5@admin.pl",
       "gender": "male",
@@ -162,6 +162,54 @@
           "coolingQd": "",
           "thickness": "",
           "lambda": ""
+        },
+        {
+          "id": 4,
+          "position": 4,
+          "no": "3a",
+          "system": 14,
+          "comment": "",
+          "heating": true,
+          "cooling": false,
+          "pipe": "MLC",
+          "pipeSpacing": "",
+          "dimension": "14x2,0",
+          "heatingTi": "25",
+          "heatingTs": "35",
+          "heatingTr": "30",
+          "heatingQu": "",
+          "heatingQd": "",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
+          "thickness": "6",
+          "lambda": "0,038"
+        },
+        {
+          "id": 5,
+          "position": 5,
+          "no": "12",
+          "system": 5,
+          "comment": "122",
+          "heating": true,
+          "cooling": false,
+          "pipe": "PE-Xb",
+          "pipeSpacing": "122",
+          "dimension": "25x2,3",
+          "heatingTi": "21",
+          "heatingTs": "45",
+          "heatingTr": "10",
+          "heatingQu": "55",
+          "heatingQd": "5",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
+          "thickness": "",
+          "lambda": ""
         }
       ],
       "id": 1,
@@ -177,7 +225,8 @@
       "manifolds": [
         4,
         7,
-        8
+        8,
+        9
       ]
     },
     {
@@ -223,6 +272,54 @@
           "coolingQd": "",
           "thickness": "",
           "lambda": ""
+        },
+        {
+          "id": 2,
+          "position": 2,
+          "no": "12",
+          "system": 14,
+          "comment": "eqweq",
+          "heating": true,
+          "cooling": false,
+          "pipe": "PE-Xb",
+          "pipeSpacing": "",
+          "dimension": "25x2,3",
+          "heatingTi": "25",
+          "heatingTs": "33",
+          "heatingTr": "2",
+          "heatingQu": "",
+          "heatingQd": "",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
+          "thickness": "34",
+          "lambda": "23"
+        },
+        {
+          "id": 3,
+          "position": 3,
+          "no": "13",
+          "system": 7,
+          "comment": "dsasdf",
+          "heating": false,
+          "cooling": false,
+          "pipe": "MLC",
+          "pipeSpacing": "212",
+          "dimension": "18x2,0",
+          "heatingTi": "12",
+          "heatingTs": "2",
+          "heatingTr": "21",
+          "heatingQu": "23",
+          "heatingQd": "2",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
+          "thickness": "",
+          "lambda": ""
         }
       ],
       "manifolds": [
@@ -241,33 +338,19 @@
           "id": 7,
           "title": "123 TEST 4 Germany (DE) ver. B",
           "updateDate": "2023-09-05T23:32:05.579Z",
-          "touchDate": "2023-09-07T06:27:07.264Z"
+          "touchDate": "2023-09-19T23:43:48.973Z"
         },
         {
           "id": 1,
           "title": "P-0001287 SFH Muller Germany (DE) ver. A",
           "updateDate": "2023-08-25T08:41:17.496Z",
-          "touchDate": "2023-09-07T06:26:59.893Z"
+          "touchDate": "2023-09-19T23:23:05.918Z"
         }
       ]
     },
     {
       "id": "test",
       "projects": null
-    }
-  ],
-  "segments": [
-    {
-      "room": "12",
-      "comment": "sfdsfsdf",
-      "system": 6,
-      "pipeLenghtToManifold": "3",
-      "connectionType": "Tichelmann",
-      "segmentSource": "From template",
-      "variant": "Variable diameter",
-      "checkBoxHeating": true,
-      "checkBoxCooling": "",
-      "id": 1
     }
   ],
   "manifolds": [
@@ -280,7 +363,8 @@
       "fluid": 1,
       "concentration": "",
       "manifoldType": 2,
-      "manifoldAssemblyMethod": "On wall"
+      "manifoldAssemblyMethod": "On wall",
+      "segments": []
     },
     {
       "id": 2,
@@ -291,7 +375,37 @@
       "fluid": 1,
       "concentration": "",
       "manifoldType": "",
-      "manifoldAssemblyMethod": ""
+      "manifoldAssemblyMethod": "",
+      "segments": [
+        {
+          "id": 1,
+          "position": 1,
+          "no": "1.1.1",
+          "room": "1",
+          "comment": "",
+          "system": 7,
+          "heating": false,
+          "cooling": false,
+          "connectionType": 2,
+          "pipeLengthToManifold": 3,
+          "segmentSource": 2,
+          "variant": 2,
+          "loop_panels": "",
+          "pipesBetweenPanels": "",
+          "feedPipes": "",
+          "heatingM": "",
+          "heatingDp": "",
+          "heatingTs": "",
+          "heatingDt": "",
+          "heatingTr": "",
+          "coolingM": "",
+          "coolingDp": "",
+          "coolingTs": "",
+          "coolingDt": "",
+          "coolingTr": "",
+          "feedPipesTerminalUnit": ""
+        }
+      ]
     },
     {
       "id": 3,
@@ -302,18 +416,49 @@
       "fluid": 1,
       "concentration": "",
       "manifoldType": 3,
-      "manifoldAssemblyMethod": "On wall"
+      "manifoldAssemblyMethod": "On wall",
+      "segments": []
     },
     {
       "id": 4,
       "position": 1,
       "name": "Manifold",
-      "number": "3",
+      "number": "1",
       "comment": "",
       "fluid": 1,
       "concentration": "",
       "manifoldType": 2,
-      "manifoldAssemblyMethod": "On wall"
+      "manifoldAssemblyMethod": "On wall",
+      "segments": [
+        {
+          "id": 1,
+          "position": 1,
+          "no": "1.1.1",
+          "room": "1",
+          "comment": "",
+          "system": 5,
+          "heating": true,
+          "cooling": false,
+          "connectionType": 2,
+          "pipeLengthToManifold": 3,
+          "segmentSource": 1,
+          "variant": 2,
+          "loop_panels": 2,
+          "pipesBetweenPanels": "",
+          "feedPipes": 4,
+          "heatingM": "",
+          "heatingDp": "",
+          "heatingTs": "",
+          "heatingDt": "",
+          "heatingTr": "",
+          "coolingM": "",
+          "coolingDp": "",
+          "coolingTs": "",
+          "coolingDt": "",
+          "coolingTr": "",
+          "feedPipesTerminalUnit": ""
+        }
+      ]
     },
     {
       "id": 7,
@@ -324,7 +469,37 @@
       "fluid": 1,
       "concentration": "",
       "manifoldType": 2,
-      "manifoldAssemblyMethod": "On wall"
+      "manifoldAssemblyMethod": "On wall",
+      "segments": [
+        {
+          "id": 1,
+          "position": 3,
+          "no": "1.1.1",
+          "room": "12",
+          "comment": "Office",
+          "system": 5,
+          "heating": true,
+          "cooling": false,
+          "connectionType": 1,
+          "pipeLengthToManifold": 3,
+          "segmentSource": 1,
+          "variant": 2,
+          "loop_panels": 2,
+          "pipesBetweenPanels": "",
+          "feedPipes": 2,
+          "heatingM": "",
+          "heatingDp": "",
+          "heatingTs": "",
+          "heatingDt": "",
+          "heatingTr": "",
+          "coolingM": "",
+          "coolingDp": "",
+          "coolingTs": "",
+          "coolingDt": "",
+          "coolingTr": "",
+          "feedPipesTerminalUnit": 2
+        }
+      ]
     },
     {
       "id": 8,
@@ -335,6 +510,18 @@
       "fluid": 1,
       "concentration": "",
       "manifoldType": 2,
+      "manifoldAssemblyMethod": "On wall",
+      "segments": []
+    },
+    {
+      "id": 9,
+      "position": 4,
+      "name": "Manifold",
+      "number": "5",
+      "comment": "",
+      "fluid": 2,
+      "concentration": "25",
+      "manifoldType": 8,
       "manifoldAssemblyMethod": "On wall"
     }
   ],
@@ -448,20 +635,6 @@
         "75x6,8",
         "110x6,6",
         "160x9,5"
-      ]
-    },
-    {
-      "id": "Classic",
-      "values": [
-        "One Loop (One subzone)",
-        "Loop + Feed pipe (Two subzones)"
-      ]
-    },
-    {
-      "id": "Tichelmann",
-      "values": [
-        "Constant diameter",
-        "Variable diameter"
       ]
     }
   ]
