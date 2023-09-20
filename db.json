@@ -225,8 +225,7 @@
       "manifolds": [
         4,
         7,
-        8,
-        9
+        8
       ]
     },
     {
@@ -335,16 +334,16 @@
       "id": "admin",
       "projects": [
         {
-          "id": 7,
-          "title": "123 TEST 4 Germany (DE) ver. B",
-          "updateDate": "2023-09-05T23:32:05.579Z",
-          "touchDate": "2023-09-19T23:43:48.973Z"
-        },
-        {
           "id": 1,
           "title": "P-0001287 SFH Muller Germany (DE) ver. A",
           "updateDate": "2023-08-25T08:41:17.496Z",
-          "touchDate": "2023-09-19T23:23:05.918Z"
+          "touchDate": "2023-09-19T23:12:56.420Z"
+        },
+        {
+          "id": 7,
+          "title": "123 TEST 4 Germany (DE) ver. B",
+          "updateDate": "2023-09-05T23:32:05.579Z",
+          "touchDate": "2023-09-19T23:12:43.346Z"
         }
       ]
     },
@@ -376,36 +375,7 @@
       "concentration": "",
       "manifoldType": "",
       "manifoldAssemblyMethod": "",
-      "segments": [
-        {
-          "id": 1,
-          "position": 1,
-          "no": "1.1.1",
-          "room": "1",
-          "comment": "",
-          "system": 7,
-          "heating": false,
-          "cooling": false,
-          "connectionType": 2,
-          "pipeLengthToManifold": 3,
-          "segmentSource": 2,
-          "variant": 2,
-          "loop_panels": "",
-          "pipesBetweenPanels": "",
-          "feedPipes": "",
-          "heatingM": "",
-          "heatingDp": "",
-          "heatingTs": "",
-          "heatingDt": "",
-          "heatingTr": "",
-          "coolingM": "",
-          "coolingDp": "",
-          "coolingTs": "",
-          "coolingDt": "",
-          "coolingTr": "",
-          "feedPipesTerminalUnit": ""
-        }
-      ]
+      "segments": []
     },
     {
       "id": 3,
@@ -429,36 +399,7 @@
       "concentration": "",
       "manifoldType": 2,
       "manifoldAssemblyMethod": "On wall",
-      "segments": [
-        {
-          "id": 1,
-          "position": 1,
-          "no": "1.1.1",
-          "room": "1",
-          "comment": "",
-          "system": 5,
-          "heating": true,
-          "cooling": false,
-          "connectionType": 2,
-          "pipeLengthToManifold": 3,
-          "segmentSource": 1,
-          "variant": 2,
-          "loop_panels": 2,
-          "pipesBetweenPanels": "",
-          "feedPipes": 4,
-          "heatingM": "",
-          "heatingDp": "",
-          "heatingTs": "",
-          "heatingDt": "",
-          "heatingTr": "",
-          "coolingM": "",
-          "coolingDp": "",
-          "coolingTs": "",
-          "coolingDt": "",
-          "coolingTr": "",
-          "feedPipesTerminalUnit": ""
-        }
-      ]
+      "segments": []
     },
     {
       "id": 7,
@@ -483,7 +424,7 @@
           "connectionType": 1,
           "pipeLengthToManifold": 3,
           "segmentSource": 1,
-          "variant": 2,
+          "variant": 1,
           "loop_panels": 2,
           "pipesBetweenPanels": "",
           "feedPipes": 2,
@@ -512,17 +453,6 @@
       "manifoldType": 2,
       "manifoldAssemblyMethod": "On wall",
       "segments": []
-    },
-    {
-      "id": 9,
-      "position": 4,
-      "name": "Manifold",
-      "number": "5",
-      "comment": "",
-      "fluid": 2,
-      "concentration": "25",
-      "manifoldType": 8,
-      "manifoldAssemblyMethod": "On wall"
     }
   ],
   "userSettingsDictionaries": [
