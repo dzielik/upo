@@ -1073,7 +1073,9 @@
           "lambda": "0,035"
         }
       ],
-      "manifolds": [],
+      "manifolds": [
+        9
+      ],
       "id": 7
     }
   ],
@@ -1199,6 +1201,18 @@
       "fluid": 1,
       "concentration": "",
       "manifoldType": 2,
+      "manifoldAssemblyMethod": "On wall",
+      "segments": []
+    },
+    {
+      "id": 9,
+      "position": 1,
+      "name": "Manifold",
+      "number": "1",
+      "comment": "",
+      "fluid": 1,
+      "concentration": "",
+      "manifoldType": 1,
       "manifoldAssemblyMethod": "On wall",
       "segments": []
     }
