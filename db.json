@@ -1084,16 +1084,16 @@
       "id": "admin",
       "projects": [
         {
+          "id": 1,
+          "title": "P-0001287 SFH Muller Germany (DE) ver. A",
+          "updateDate": "2023-08-25T08:41:17.496Z",
+          "touchDate": "2023-09-27T23:54:03.345Z"
+        },
+        {
           "id": 7,
           "title": "123 TEST 4 Germany (DE) ver. B",
           "updateDate": "2023-09-05T23:32:05.579Z",
           "touchDate": "2023-09-21T13:01:16.704Z"
-        },
-        {
-          "id": 1,
-          "title": "P-0001287 SFH Muller Germany (DE) ver. A",
-          "updateDate": "2023-08-25T08:41:17.496Z",
-          "touchDate": "2023-09-21T07:29:53.661Z"
         }
       ]
     },
@@ -1164,7 +1164,7 @@
       "segments": [
         {
           "terminalUnitData": null,
-          "details": null,
+          "details": {},
           "id": 4,
           "position": 6,
           "no": "3.5",
@@ -1208,6 +1208,25 @@
           "segmentSource": 2,
           "variant": 13,
           "loopPanelsSubzoneId": "",
+          "pipesBetweenPanelsSubzoneId": "",
+          "feedPipesSubzoneId": ""
+        },
+        {
+          "terminalUnitData": null,
+          "details": {},
+          "id": 6,
+          "position": 8,
+          "no": "3.7",
+          "room": "4",
+          "comment": "",
+          "system": 5,
+          "heating": true,
+          "cooling": false,
+          "connectionType": 1,
+          "pipeLengthToManifold": 3,
+          "segmentSource": 2,
+          "variant": 1,
+          "loopPanelsSubzoneId": 5,
           "pipesBetweenPanelsSubzoneId": "",
           "feedPipesSubzoneId": ""
         }
