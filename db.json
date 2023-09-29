@@ -47,7 +47,7 @@
     },
     {
       "id": "5",
-      "name": "tadeusz Nowak",
+      "name": "Tadeusz Nowak",
       "password": "12345",
       "email": "admin5@admin.pl",
       "gender": "male",
@@ -86,14 +86,13 @@
       "currentTitle": "P-0001287 SFH Muller Germany (DE) ver. A",
       "designer": "DeSi",
       "printLanguage": "German",
-      "updateDate": "2023-08-25T08:41:17.496Z",
+      "updateDate": "2023-09-27T07:22:04.857Z",
       "systems": [
         2,
         5,
         6,
         7
       ],
-      "creator": "Admin",
       "subzones": [
         {
           "id": 2,
@@ -212,21 +211,18 @@
           "lambda": ""
         }
       ],
-      "id": 1,
-      "manages": {
-        "creator": "admin",
-        "currentOwner": "2",
-        "supportTeam": [
-          "3",
-          "4"
-        ],
-        "status": 1
-      },
       "manifolds": [
         4,
         7,
         8
-      ]
+      ],
+      "id": 1,
+      "comment": "SFH Muller project",
+      "notes": "This is project SFH",
+      "manage": {
+        "creator": "admin",
+        "status": 1
+      }
     },
     {
       "caseNumber": 123,
@@ -254,7 +250,6 @@
         13,
         14
       ],
-      "creator": "Admin",
       "subzones": [
         {
           "id": 1,
@@ -1076,7 +1071,11 @@
       "manifolds": [
         9
       ],
-      "id": 7
+      "id": 7,
+      "manage": {
+        "creator": "1",
+        "status": 0
+      }
     }
   ],
   "lastProjects": [
