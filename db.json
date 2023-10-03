@@ -1163,7 +1163,19 @@
       "segments": [
         {
           "terminalUnitData": null,
-          "details": {},
+          "details": {
+            "pipeLength": "123",
+            "fittings": [
+              {
+                "id": "9999998",
+                "count": 2
+              },
+              {
+                "id": "9999997",
+                "count": 3
+              }
+            ]
+          },
           "id": 4,
           "position": 6,
           "no": "3.5",
@@ -1194,7 +1206,7 @@
             "coolingTr": "",
             "feedPipesTerminalUnit": ""
           },
-          "details": null,
+          "details": {},
           "id": 5,
           "position": 7,
           "no": "3.6",
