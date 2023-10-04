@@ -1076,12 +1076,70 @@
         "creator": "1",
         "status": 0
       }
+    },
+    {
+      "caseNumber": "P1",
+      "name": "Kalkulacja1",
+      "deadline": "2023-10-04T22:00:00.000Z",
+      "country": "Austria (AUT)",
+      "version": "1",
+      "currentTitle": "P1 Kalkulacja1 Austria (AUT) ver. 1",
+      "designer": "DeSi",
+      "printLanguage": "English",
+      "updateDate": "2023-10-04T18:06:38.114Z",
+      "systems": [
+        4
+      ],
+      "comment": "",
+      "notes": "",
+      "updateUser": "admin",
+      "subzones": [
+        {
+          "id": 1,
+          "position": 1,
+          "no": "1",
+          "system": 4,
+          "comment": "",
+          "heating": true,
+          "cooling": true,
+          "pipe": "PE-Xa",
+          "pipeSpacing": "200",
+          "dimension": "20x2,0",
+          "heatingTi": "21",
+          "heatingTs": "35",
+          "heatingTr": "30",
+          "heatingQu": "45",
+          "heatingQd": "5",
+          "coolingTi": "26",
+          "coolingTs": "16",
+          "coolingTr": "19",
+          "coolingQu": "20",
+          "coolingQd": "2",
+          "thickness": "",
+          "lambda": ""
+        }
+      ],
+      "manifolds": [
+        10
+      ],
+      "creationDate": "2023-10-04T18:06:38.114Z",
+      "manage": {
+        "creator": "admin",
+        "status": 0
+      },
+      "id": 8
     }
   ],
   "lastProjects": [
     {
       "id": "admin",
       "projects": [
+        {
+          "id": 8,
+          "title": "P1 Kalkulacja1 Austria (AUT) ver. 1",
+          "updateDate": "2023-10-04T18:06:38.114Z",
+          "touchDate": "2023-10-04T23:21:44.460Z"
+        },
         {
           "id": 1,
           "title": "P-0001287 SFH Muller Germany (DE) ver. A",
@@ -1189,8 +1247,8 @@
           "segmentSource": 2,
           "variant": 1,
           "loopPanelsSubzoneId": 1,
-          "pipesBetweenPanelsSubzoneId": "",
-          "feedPipesSubzoneId": ""
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": null
         },
         {
           "terminalUnitData": {
@@ -1218,9 +1276,9 @@
           "connectionType": 1,
           "segmentSource": 2,
           "variant": 13,
-          "loopPanelsSubzoneId": "",
-          "pipesBetweenPanelsSubzoneId": "",
-          "feedPipesSubzoneId": ""
+          "loopPanelsSubzoneId": null,
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": null
         },
         {
           "terminalUnitData": null,
@@ -1238,8 +1296,8 @@
           "segmentSource": 2,
           "variant": 1,
           "loopPanelsSubzoneId": 5,
-          "pipesBetweenPanelsSubzoneId": "",
-          "feedPipesSubzoneId": ""
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": null
         }
       ]
     },
@@ -1266,6 +1324,56 @@
       "manifoldType": 1,
       "manifoldAssemblyMethod": "On wall",
       "segments": []
+    },
+    {
+      "name": "Manifold",
+      "number": "m1",
+      "comment": "",
+      "fluid": 1,
+      "manifoldType": 9,
+      "manifoldAssemblyMethod": "On wall",
+      "position": 1,
+      "segments": [
+        {
+          "terminalUnitData": null,
+          "details": {},
+          "id": 1,
+          "position": 1,
+          "no": "m1.1",
+          "room": "1",
+          "comment": "",
+          "system": 4,
+          "heating": true,
+          "cooling": true,
+          "connectionType": 1,
+          "pipeLengthToManifold": 3,
+          "segmentSource": 2,
+          "variant": 1,
+          "loopPanelsSubzoneId": 1,
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": null
+        },
+        {
+          "terminalUnitData": null,
+          "details": {},
+          "id": 2,
+          "position": 2,
+          "no": "m1.2",
+          "room": "2",
+          "comment": "",
+          "system": 4,
+          "heating": true,
+          "cooling": true,
+          "connectionType": 1,
+          "pipeLengthToManifold": 3,
+          "segmentSource": 2,
+          "variant": 1,
+          "loopPanelsSubzoneId": 1,
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": null
+        }
+      ],
+      "id": 10
     }
   ],
   "userSettingsDictionaries": [
