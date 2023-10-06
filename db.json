@@ -102,9 +102,8 @@
           "comment": "kom",
           "heating": true,
           "cooling": true,
-          "pipe": "PE-Xa",
+          "pipe": 14,
           "pipeSpacing": "130",
-          "dimension": "9,9x1,1",
           "heatingTi": "4,4",
           "heatingTs": "5,5",
           "heatingTr": "4,5",
@@ -124,9 +123,8 @@
           "comment": "Office right part - loop",
           "heating": true,
           "cooling": true,
-          "pipe": "PE-Xa",
+          "pipe": 18,
           "pipeSpacing": "150",
-          "dimension": "20x2,0",
           "heatingTi": "20,1",
           "heatingTs": "35,1",
           "heatingTr": "32,1",
@@ -146,9 +144,8 @@
           "comment": "fdgsgsg",
           "heating": true,
           "cooling": false,
-          "pipe": "MLC",
+          "pipe": 2,
           "pipeSpacing": "123",
-          "dimension": "14x2,0",
           "heatingTi": "21",
           "heatingTs": "45",
           "heatingTr": "30",
@@ -170,9 +167,8 @@
           "comment": "",
           "heating": true,
           "cooling": false,
-          "pipe": "MLC",
+          "pipe": 2,
           "pipeSpacing": "",
-          "dimension": "14x2,0",
           "heatingTi": "25",
           "heatingTs": "35",
           "heatingTr": "30",
@@ -194,9 +190,8 @@
           "comment": "122",
           "heating": true,
           "cooling": false,
-          "pipe": "PE-Xb",
+          "pipe": 27,
           "pipeSpacing": "122",
-          "dimension": "25x2,3",
           "heatingTi": "21",
           "heatingTs": "45",
           "heatingTr": "10",
@@ -1102,9 +1097,8 @@
           "comment": "",
           "heating": true,
           "cooling": true,
-          "pipe": "PE-Xa",
+          "pipe": 18,
           "pipeSpacing": "200",
-          "dimension": "20x2,0",
           "heatingTi": "21",
           "heatingTs": "35",
           "heatingTr": "30",
@@ -1138,13 +1132,13 @@
           "id": 8,
           "title": "P1 Kalkulacja1 Austria (AUT) ver. 1",
           "updateDate": "2023-10-04T18:06:38.114Z",
-          "touchDate": "2023-10-04T23:21:44.460Z"
+          "touchDate": "2023-10-06T06:14:47.583Z"
         },
         {
           "id": 1,
           "title": "P-0001287 SFH Muller Germany (DE) ver. A",
-          "updateDate": "2023-08-25T08:41:17.496Z",
-          "touchDate": "2023-09-27T23:54:03.345Z"
+          "updateDate": "2023-09-27T07:22:04.857Z",
+          "touchDate": "2023-10-06T05:35:49.839Z"
         },
         {
           "id": 7,
@@ -1225,11 +1219,11 @@
             "pipeLength": "123",
             "fittings": [
               {
-                "id": "9999998",
+                "id": 9999998,
                 "count": 2
               },
               {
-                "id": "9999997",
+                "id": 9999997,
                 "count": 3
               }
             ]
@@ -1412,80 +1406,6 @@
         "Ukraine (UA)",
         "Poland (PL)",
         "Russia (RU)"
-      ]
-    },
-    {
-      "id": "pipestype",
-      "values": [
-        "PE-Xa",
-        "PE-Xb",
-        "MLC",
-        "PE-RT",
-        "HDPE"
-      ]
-    },
-    {
-      "id": "PE-Xa",
-      "values": [
-        "9,9x1,1",
-        "14x2,0",
-        "16x2,0",
-        "17x2,0",
-        "20x2,0",
-        "25x2,3",
-        "32x2,9",
-        "40x3,7",
-        "50x4,6",
-        "63x5,8",
-        "75x6,8",
-        "90x8,2",
-        "110x10,0"
-      ]
-    },
-    {
-      "id": "PE-Xb",
-      "values": [
-        "25x2,3"
-      ]
-    },
-    {
-      "id": "MLC",
-      "values": [
-        "12x1,6",
-        "14x2,0",
-        "16x2,0",
-        "18x2,0",
-        "20x2,25",
-        "25x2,5",
-        "32x3,0",
-        "40x4,0",
-        "50x4,5",
-        "63x6,0",
-        "75x7,5",
-        "90x8,5",
-        "110x10,0"
-      ]
-    },
-    {
-      "id": "PE-Xb",
-      "values": [
-        "25x2,3"
-      ]
-    },
-    {
-      "id": "PE-RT",
-      "values": [
-        "14x2,0",
-        "16x2,0",
-        "20x2,0"
-      ]
-    },
-    {
-      "id": "HDPE",
-      "values": [
-        "75x6,8",
-        "110x6,6",
-        "160x9,5"
       ]
     }
   ],
@@ -1958,987 +1878,987 @@
     ],
     "fittings": [
       {
-        "id": "1048542",
+        "id": 1048542,
         "fittingTypeId": 1,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor RTM coupling PPSU 16-16"
       },
       {
-        "id": "1048553",
+        "id": 1048553,
         "fittingTypeId": 1,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor RTM tee reducer PPSU 20-16-20"
       },
       {
-        "id": "1048554",
+        "id": 1048554,
         "fittingTypeId": 1,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor RTM tee reducer PPSU 20-16-20"
       },
       {
-        "id": "1048545",
+        "id": 1048545,
         "fittingTypeId": 1,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor RTM reducer PPSU 20-16"
       },
       {
-        "id": "1008679",
+        "id": 1008679,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
         "value": "Uponor Q&E elbow PPSU 16-16"
       },
       {
-        "id": "1008680",
+        "id": 1008680,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
         "value": "Uponor Q&E elbow PPSU 20-20"
       },
       {
-        "id": "1008681",
+        "id": 1008681,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
         "value": "Uponor Q&E elbow PPSU 25-25"
       },
       {
-        "id": "1008682",
+        "id": 1008682,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
         "value": "Uponor Q&E elbow PPSU 32-32"
       },
       {
-        "id": "1008683",
+        "id": 1008683,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
         "value": "Uponor Q&E elbow PPSU 40-40"
       },
       {
-        "id": "1042859",
+        "id": 1042859,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
         "value": "Uponor Q&E elbow PPSU 50-50"
       },
       {
-        "id": "1042858",
+        "id": 1042858,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
         "value": "Uponor Q&E elbow PPSU 63-63"
       },
       {
-        "id": "1085080",
+        "id": 1085080,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
         "value": "Uponor Q&E elbow PPSU 75-75"
       },
       {
-        "id": "1008669",
+        "id": 1008669,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor Q&E coupling PPSU 16-16"
       },
       {
-        "id": "1008932",
+        "id": 1008932,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor Q&E coupling PPSU 20-20"
       },
       {
-        "id": "1008671",
+        "id": 1008671,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor Q&E coupling PPSU 25-25"
       },
       {
-        "id": "1001235",
+        "id": 1001235,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor Q&E coupling PPSU 32-32"
       },
       {
-        "id": "1008673",
+        "id": 1008673,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor Q&E coupling PPSU 40-40"
       },
       {
-        "id": "1042866",
+        "id": 1042866,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor Q&E coupling PPSU 50-50"
       },
       {
-        "id": "1042865",
+        "id": 1042865,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor Q&E coupling PPSU 63-63"
       },
       {
-        "id": "1085084",
+        "id": 1085084,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor Q&E coupling PPSU 75-75"
       },
       {
-        "id": "1008674",
+        "id": 1008674,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 20-16"
       },
       {
-        "id": "1008675",
+        "id": 1008675,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 25-16"
       },
       {
-        "id": "1008676",
+        "id": 1008676,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 25-20"
       },
       {
-        "id": "1001240",
+        "id": 1001240,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 32-25"
       },
       {
-        "id": "1008678",
+        "id": 1008678,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 40-32"
       },
       {
-        "id": "1042879",
+        "id": 1042879,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 50-32"
       },
       {
-        "id": "1042867",
+        "id": 1042867,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 50-40"
       },
       {
-        "id": "1042878",
+        "id": 1042878,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 63-40"
       },
       {
-        "id": "1042877",
+        "id": 1042877,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 63-50"
       },
       {
-        "id": "1085086",
+        "id": 1085086,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 75-50"
       },
       {
-        "id": "1085085",
+        "id": 1085085,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer PPSU 75-63"
       },
       {
-        "id": "1008684",
+        "id": 1008684,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
         "value": "Uponor Q&E tee PPSU 16-16-16"
       },
       {
-        "id": "1008685",
+        "id": 1008685,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
         "value": "Uponor Q&E tee PPSU 20-20-20"
       },
       {
-        "id": "1008686",
+        "id": 1008686,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
         "value": "Uponor Q&E tee PPSU 25-25-25"
       },
       {
-        "id": "1001250",
+        "id": 1001250,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
         "value": "Uponor Q&E tee PPSU 32-32-32"
       },
       {
-        "id": "1008688",
+        "id": 1008688,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
         "value": "Uponor Q&E tee PPSU 40-40-40"
       },
       {
-        "id": "1042861",
+        "id": 1042861,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
         "value": "Uponor Q&E tee PPSU 50-50-50"
       },
       {
-        "id": "1042860",
+        "id": 1042860,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
         "value": "Uponor Q&E tee PPSU 63-63-63"
       },
       {
-        "id": "1085081",
+        "id": 1085081,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
         "value": "Uponor Q&E tee PPSU 75-75-75"
       },
       {
-        "id": "1008710",
+        "id": 1008710,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 16-20-16"
       },
       {
-        "id": "1008700",
+        "id": 1008700,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 20-16-16"
       },
       {
-        "id": "1008689",
+        "id": 1008689,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 20-16-20"
       },
       {
-        "id": "1008697",
+        "id": 1008697,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 20-20-16"
       },
       {
-        "id": "1008711",
+        "id": 1008711,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 20-25-20"
       },
       {
-        "id": "1008702",
+        "id": 1008702,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 25-16-16"
       },
       {
-        "id": "1008699",
+        "id": 1008699,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 25-16-20"
       },
       {
-        "id": "1008690",
+        "id": 1008690,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 25-16-25"
       },
       {
-        "id": "1008701",
+        "id": 1008701,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 25-20-16"
       },
       {
-        "id": "1008703",
+        "id": 1008703,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 25-20-20"
       },
       {
-        "id": "1008691",
+        "id": 1008691,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 25-20-25"
       },
       {
-        "id": "1001420",
+        "id": 1001420,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 25-25-20"
       },
       {
-        "id": "1008712",
+        "id": 1008712,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 25-32-25"
       },
       {
-        "id": "1001422",
+        "id": 1001422,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 32-20-25"
       },
       {
-        "id": "1001424",
+        "id": 1001424,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 32-20-32"
       },
       {
-        "id": "1008704",
+        "id": 1008704,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 32-25-20"
       },
       {
-        "id": "1001426",
+        "id": 1001426,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 32-25-25"
       },
       {
-        "id": "1001428",
+        "id": 1001428,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 32-25-32"
       },
       {
-        "id": "1008713",
+        "id": 1008713,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 32-40-32"
       },
       {
-        "id": "1008707",
+        "id": 1008707,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 40-20-32"
       },
       {
-        "id": "1008694",
+        "id": 1008694,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 40-20-40"
       },
       {
-        "id": "1008708",
+        "id": 1008708,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 40-25-32"
       },
       {
-        "id": "1008695",
+        "id": 1008695,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 40-25-40"
       },
       {
-        "id": "1008709",
+        "id": 1008709,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 40-32-32"
       },
       {
-        "id": "1008696",
+        "id": 1008696,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 40-32-40"
       },
       {
-        "id": "1042876",
+        "id": 1042876,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 50-25-40"
       },
       {
-        "id": "1042864",
+        "id": 1042864,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 50-25-50"
       },
       {
-        "id": "1042863",
+        "id": 1042863,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 50-32-50"
       },
       {
-        "id": "1042862",
+        "id": 1042862,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 50-40-40"
       },
       {
-        "id": "1042875",
+        "id": 1042875,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 50-40-50"
       },
       {
-        "id": "1042871",
+        "id": 1042871,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 63-25-50"
       },
       {
-        "id": "1042873",
+        "id": 1042873,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 63-25-63"
       },
       {
-        "id": "1042870",
+        "id": 1042870,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 63-32-63"
       },
       {
-        "id": "1042869",
+        "id": 1042869,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 63-40-40"
       },
       {
-        "id": "1042872",
+        "id": 1042872,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 63-40-63"
       },
       {
-        "id": "1042868",
+        "id": 1042868,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 63-50-50"
       },
       {
-        "id": "1042874",
+        "id": 1042874,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 63-50-63"
       },
       {
-        "id": "1085083",
+        "id": 1085083,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 75-25-75"
       },
       {
-        "id": "1085082",
+        "id": 1085082,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reducer PPSU 75-40-75"
       },
       {
-        "id": "1020518",
+        "id": 1020518,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer. rings Minitec 20xMinitec9.9"
       },
       {
-        "id": "1020524",
+        "id": 1020524,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee reduced. rings Minitec 20xMinitec9.9xQ&E20"
       },
       {
-        "id": "1063932",
+        "id": 1063932,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee 20-14-20"
       },
       {
-        "id": "1072005",
+        "id": 1072005,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor Q&E coupling CE PPSU 20-20"
       },
       {
-        "id": "1058659",
+        "id": 1058659,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
         "value": "Uponor Q&E coupling. rings DR 14-14"
       },
       {
-        "id": "1063933",
+        "id": 1063933,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer 20-14"
       },
       {
-        "id": "1063939",
+        "id": 1063939,
         "fittingTypeId": 3,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
         "value": "Uponor Q&E reducer 20-9.9"
       },
       {
-        "id": "1063929",
+        "id": 1063929,
         "fittingTypeId": 3,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
         "value": "Uponor Q&E adapter S-Press 40-Q&E14"
       },
       {
-        "id": "1063938",
+        "id": 1063938,
         "fittingTypeId": 3,
         "fittingRawMaterialId": 3,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee adapter S-Press 20-Q&E9.9-Press20"
       },
       {
-        "id": "1063928",
+        "id": 1063928,
         "fittingTypeId": 3,
         "fittingRawMaterialId": 3,
         "fittingKindId": 2,
         "value": "Uponor Q&E tee adapter S-Press 40-Q&E14-Press40"
       },
       {
-        "id": "1005264",
+        "id": 1005264,
         "fittingTypeId": 3,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
         "value": "Uponor Minitec coupling. rings 9.9x1.1"
       },
       {
-        "id": "1089646",
+        "id": 1089646,
         "fittingTypeId": 4,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
         "value": "Uponor Smart press coupling 14x2.0-14x2.0"
       },
       {
-        "id": "1039946",
+        "id": 1039946,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
         "value": "Uponor S-Press PLUS tee PPSU 25-25-25"
       },
       {
-        "id": "1039945",
+        "id": 1039945,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
         "value": "Uponor S-Press PLUS tee PPSU 20-20-20"
       },
       {
-        "id": "1039955",
+        "id": 1039955,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor S-Press PLUS tee red. PPSU 25-16-25"
       },
       {
-        "id": "1039953",
+        "id": 1039953,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor S-Press PLUS tee red. PPSU 25-16-16"
       },
       {
-        "id": "1039950",
+        "id": 1039950,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor S-Press PLUS tee red. PPSU 20-16-20"
       },
       {
-        "id": "1039949",
+        "id": 1039949,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
         "value": "Uponor S-Press PLUS tee red. PPSU 20-16-16"
       },
       {
-        "id": "1039939",
+        "id": 1039939,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor S-Press PLUS reducer PPSU 25-20"
       },
       {
-        "id": "1039938",
+        "id": 1039938,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor S-Press PLUS reducer PPSU 25-16"
       },
       {
-        "id": "1039937",
+        "id": 1039937,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
         "value": "Uponor S-Press PLUS reducer PPSU 20-16"
       },
       {
-        "id": "1039935",
+        "id": 1039935,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor S-Press PLUS coupling PPSU 25-25"
       },
       {
-        "id": "1039934",
+        "id": 1039934,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor S-Press PLUS coupling PPSU 20-20"
       },
       {
-        "id": "1039933",
+        "id": 1039933,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
         "value": "Uponor S-Press PLUS coupling PPSU 16-16"
       },
       {
-        "id": "1070562",
+        "id": 1070562,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 5,
         "value": "Uponor S-Press PLUS tee 25-25-25"
       },
       {
-        "id": "1070561",
+        "id": 1070561,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 5,
         "value": "Uponor S-Press PLUS tee 20-20-20"
       },
       {
-        "id": "1070574",
+        "id": 1070574,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
         "value": "Uponor S-Press PLUS tee red. 25-16-25"
       },
       {
-        "id": "1070572",
+        "id": 1070572,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
         "value": "Uponor S-Press PLUS tee red. 25-16-16"
       },
       {
-        "id": "1070566",
+        "id": 1070566,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
         "value": "Uponor S-Press PLUS tee red. 20-16-20"
       },
       {
-        "id": "1070567",
+        "id": 1070567,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
         "value": "Uponor S-Press PLUS tee red. 20-16-16"
       },
       {
-        "id": "1070554",
+        "id": 1070554,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
         "value": "Uponor S-Press PLUS reducer 25-20"
       },
       {
-        "id": "1070553",
+        "id": 1070553,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
         "value": "Uponor S-Press PLUS reducer 25-16"
       },
       {
-        "id": "1070552",
+        "id": 1070552,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
         "value": "Uponor S-Press PLUS reducer 20-16"
       },
       {
-        "id": "1070549",
+        "id": 1070549,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
         "value": "Uponor S-Press PLUS coupling 25-25"
       },
       {
-        "id": "1070548",
+        "id": 1070548,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
         "value": "Uponor S-Press PLUS coupling 20-20"
       },
       {
-        "id": "1070547",
+        "id": 1070547,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
         "value": "Uponor S-Press PLUS coupling 16-16"
       },
       {
-        "id": "1070638",
+        "id": 1070638,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
         "value": "Uponor S-Press PLUS tap elbow M 16-Rp3/8\"FT"
       },
       {
-        "id": "1070545",
+        "id": 1070545,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 6,
         "value": "Uponor S-Press PLUS elbow 45deg"
       },
       {
-        "id": "1046908",
+        "id": 1046908,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 4,
         "value": "Uponor S-Press elbow 40-40"
       },
       {
-        "id": "1046932",
+        "id": 1046932,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
         "value": "Uponor S-Press coupling 40-40"
       },
       {
-        "id": "1033648",
+        "id": 1033648,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 5,
         "value": "Uponor Tee 75-75-75"
       },
       {
-        "id": "1033649",
+        "id": 1033649,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 5,
         "value": "Uponor Tee 110-110-110"
       },
       {
-        "id": "1033650",
+        "id": 1033650,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 5,
         "value": "Uponor Tee 160-160-160"
       },
       {
-        "id": "9999999",
+        "id": 9999999,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 2,
         "value": "Uponor Meltaway single manifold 160-25-160"
       },
       {
-        "id": "9999998",
+        "id": 9999998,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 2,
         "value": "Uponor Meltaway single manifold 110-25-110"
       },
       {
-        "id": "9999997",
+        "id": 9999997,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 2,
         "value": "Uponor Meltaway single manifold 75-25-75"
       },
       {
-        "id": "9999996",
+        "id": 9999996,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 4,
         "value": "Uponor Elbow 75-75"
       },
       {
-        "id": "1033653",
+        "id": 1033653,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 4,
         "value": "Uponor Elbow 110-110"
       },
       {
-        "id": "1033654",
+        "id": 1033654,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 4,
         "value": "Uponor Elbow 160-160"
       },
       {
-        "id": "1033657",
+        "id": 1033657,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 3,
         "value": "Uponor Red 160-110"
       },
       {
-        "id": "9999995",
+        "id": 9999995,
         "fittingTypeId": 6,
         "fittingRawMaterialId": 4,
         "fittingKindId": 3,
         "value": "Uponor Red 110-75"
       },
       {
-        "id": "1005265",
+        "id": 1005265,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Minitec adapter male thread. ring"
       },
       {
-        "id": "1023003",
+        "id": 1023003,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread 16-R1/2\"MT"
       },
       {
-        "id": "1023004",
+        "id": 1023004,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread 16-R3/4\"MT"
       },
       {
-        "id": "1023005",
+        "id": 1023005,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread 20-R1/2\"MT"
       },
       {
-        "id": "1023006",
+        "id": 1023006,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread 20-R3/4\"MT"
       },
       {
-        "id": "1023007",
+        "id": 1023007,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread 25-R3/4\"MT"
       },
       {
-        "id": "1023008",
+        "id": 1023008,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread 25-R1\"MT"
       },
       {
-        "id": "1047191",
+        "id": 1047191,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread 32-R1\"MT"
       },
       {
-        "id": "1085077",
+        "id": 1085077,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread PL/DR 40-R1_1/4\"MT "
       },
       {
-        "id": "1085076",
+        "id": 1085076,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread PL/DR 50-R1_1/2\"MT"
       },
       {
-        "id": "1085075",
+        "id": 1085075,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread PL/DR 63-R2\"MT"
       },
       {
-        "id": "1085074",
+        "id": 1085074,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
