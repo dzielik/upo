@@ -1129,16 +1129,16 @@
       "id": "admin",
       "projects": [
         {
-          "id": 8,
-          "title": "P1 Kalkulacja1 Austria (AUT) ver. 1",
-          "updateDate": "2023-10-04T18:06:38.114Z",
-          "touchDate": "2023-10-06T06:14:47.583Z"
-        },
-        {
           "id": 1,
           "title": "P-0001287 SFH Muller Germany (DE) ver. A",
           "updateDate": "2023-09-27T07:22:04.857Z",
-          "touchDate": "2023-10-06T05:35:49.839Z"
+          "touchDate": "2023-10-05T10:35:41.111Z"
+        },
+        {
+          "id": 8,
+          "title": "P1 Kalkulacja1 Austria (AUT) ver. 1",
+          "updateDate": "2023-10-04T18:06:38.114Z",
+          "touchDate": "2023-10-04T23:21:44.460Z"
         },
         {
           "id": 7,
@@ -2863,6 +2863,3024 @@
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
         "value": "Uponor Q&E adapter male thread PL/DR 75-R2_1/2\"MT"
+      }
+    ],
+    "templatesConfiguration": [
+      {
+        "templateId": 1,
+        "systemId": 1,
+        "connectionTypeId": 1,
+        "variantId": 8,
+        "fittingConfigurationId": null,
+        "templateName": "TH-M Classic 1",
+        "loopPanel": 3,
+        "pipeBetweenPanels": 3,
+        "feedPipes": 3,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 2,
+        "systemId": 1,
+        "connectionTypeId": 1,
+        "variantId": 8,
+        "fittingConfigurationId": null,
+        "templateName": "TH-M Classic 2",
+        "loopPanel": 3,
+        "pipeBetweenPanels": 3,
+        "feedPipes": 3,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 3,
+        "systemId": 1,
+        "connectionTypeId": 1,
+        "variantId": 8,
+        "fittingConfigurationId": 1,
+        "templateName": "TH-M Classic 3",
+        "loopPanel": 3,
+        "pipeBetweenPanels": 3,
+        "feedPipes": 5,
+        "fittingDescription": "S-Press PLUS PPSU 20-16"
+      },
+      {
+        "templateId": 4,
+        "systemId": 1,
+        "connectionTypeId": 1,
+        "variantId": 8,
+        "fittingConfigurationId": 2,
+        "templateName": "TH-M Classic 4",
+        "loopPanel": 3,
+        "pipeBetweenPanels": 3,
+        "feedPipes": 5,
+        "fittingDescription": "RTM 20-16"
+      },
+      {
+        "templateId": 5,
+        "systemId": 1,
+        "connectionTypeId": 2,
+        "variantId": 9,
+        "fittingConfigurationId": 3,
+        "templateName": "TH-M Tich 1",
+        "loopPanel": 3,
+        "pipeBetweenPanels": 3,
+        "feedPipes": 5,
+        "fittingDescription": "S-Press PLUS PPSU 20-16-20 + reducer"
+      },
+      {
+        "templateId": 6,
+        "systemId": 1,
+        "connectionTypeId": 2,
+        "variantId": 9,
+        "fittingConfigurationId": 4,
+        "templateName": "TH-M Tich 2",
+        "loopPanel": 3,
+        "pipeBetweenPanels": 3,
+        "feedPipes": 5,
+        "fittingDescription": "S-Press PLUS PPSU 20-16-20 + 20-16-16"
+      },
+      {
+        "templateId": 7,
+        "systemId": 1,
+        "connectionTypeId": 2,
+        "variantId": 9,
+        "fittingConfigurationId": 5,
+        "templateName": "TH-M Tich 3",
+        "loopPanel": 3,
+        "pipeBetweenPanels": 3,
+        "feedPipes": 5,
+        "fittingDescription": "RTM 20-16-20 + reducer"
+      },
+      {
+        "templateId": 8,
+        "systemId": 1,
+        "connectionTypeId": 2,
+        "variantId": 9,
+        "fittingConfigurationId": 6,
+        "templateName": "TH-M Tich 4",
+        "loopPanel": 3,
+        "pipeBetweenPanels": 3,
+        "feedPipes": 6,
+        "fittingDescription": "S-Press PLUS PPSU 25-16-25 + reducer"
+      },
+      {
+        "templateId": 9,
+        "systemId": 1,
+        "connectionTypeId": 2,
+        "variantId": 9,
+        "fittingConfigurationId": 7,
+        "templateName": "TH-M Tich 5",
+        "loopPanel": 3,
+        "pipeBetweenPanels": 3,
+        "feedPipes": 6,
+        "fittingDescription": "S-Press PLUS PPSU 25-16-25 + 25-16-16"
+      },
+      {
+        "templateId": 10,
+        "systemId": 1,
+        "connectionTypeId": 2,
+        "variantId": 9,
+        "fittingConfigurationId": 8,
+        "templateName": "TH-M Tich 6",
+        "loopPanel": 3,
+        "pipeBetweenPanels": 3,
+        "feedPipes": 7,
+        "fittingDescription": "S-Press PLUS PPSU 32-16-32 + reducers"
+      },
+      {
+        "templateId": 11,
+        "systemId": 3,
+        "connectionTypeId": 1,
+        "variantId": 8,
+        "fittingConfigurationId": null,
+        "templateName": "RN Classic 1",
+        "loopPanel": 14,
+        "pipeBetweenPanels": 14,
+        "feedPipes": 14,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 12,
+        "systemId": 3,
+        "connectionTypeId": 1,
+        "variantId": 8,
+        "fittingConfigurationId": 9,
+        "templateName": "RN Classic 2",
+        "loopPanel": 14,
+        "pipeBetweenPanels": 14,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-9,9"
+      },
+      {
+        "templateId": 13,
+        "systemId": 3,
+        "connectionTypeId": 1,
+        "variantId": 8,
+        "fittingConfigurationId": 10,
+        "templateName": "RN Classic 3",
+        "loopPanel": 14,
+        "pipeBetweenPanels": 14,
+        "feedPipes": 5,
+        "fittingDescription": "Q&E/S-Press PLUS Brass 20-9,9"
+      },
+      {
+        "templateId": 14,
+        "systemId": 3,
+        "connectionTypeId": 2,
+        "variantId": 9,
+        "fittingConfigurationId": 11,
+        "templateName": "RN Tich 1",
+        "loopPanel": 14,
+        "pipeBetweenPanels": 14,
+        "feedPipes": 5,
+        "fittingDescription": "Q&E/S-Press PLUS Brass 20-9,9-20 + reducer"
+      },
+      {
+        "templateId": 15,
+        "systemId": 3,
+        "connectionTypeId": 2,
+        "variantId": 9,
+        "fittingConfigurationId": 12,
+        "templateName": "RN Tich 2",
+        "loopPanel": 14,
+        "pipeBetweenPanels": 14,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-9,9-20 + reducer"
+      },
+      {
+        "templateId": 16,
+        "systemId": 2,
+        "connectionTypeId": 1,
+        "variantId": 8,
+        "fittingConfigurationId": null,
+        "templateName": "TH-S Classic 1",
+        "loopPanel": 14,
+        "pipeBetweenPanels": 14,
+        "feedPipes": 14,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 17,
+        "systemId": 2,
+        "connectionTypeId": 1,
+        "variantId": 8,
+        "fittingConfigurationId": 9,
+        "templateName": "TH-S Classic 2",
+        "loopPanel": 14,
+        "pipeBetweenPanels": 14,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-9,9"
+      },
+      {
+        "templateId": 18,
+        "systemId": 2,
+        "connectionTypeId": 1,
+        "variantId": 8,
+        "fittingConfigurationId": 10,
+        "templateName": "TH-S Classic 3",
+        "loopPanel": 14,
+        "pipeBetweenPanels": 14,
+        "feedPipes": 5,
+        "fittingDescription": "Q&E/S-Press PLUS Brass 20-9,9"
+      },
+      {
+        "templateId": 19,
+        "systemId": 2,
+        "connectionTypeId": 2,
+        "variantId": 9,
+        "fittingConfigurationId": 11,
+        "templateName": "TH-S Tich 1",
+        "loopPanel": 14,
+        "pipeBetweenPanels": 14,
+        "feedPipes": 5,
+        "fittingDescription": "Q&E/S-Press PLUS Brass 20-9,9-20 + reducer"
+      },
+      {
+        "templateId": 20,
+        "systemId": 2,
+        "connectionTypeId": 2,
+        "variantId": 9,
+        "fittingConfigurationId": 12,
+        "templateName": "TH-S Tich 2",
+        "loopPanel": 14,
+        "pipeBetweenPanels": 14,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-9,9-20 + reducer"
+      },
+      {
+        "templateId": 21,
+        "systemId": 6,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "CO Classic 1",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 22,
+        "systemId": 6,
+        "connectionTypeId": 1,
+        "variantId": 2,
+        "fittingConfigurationId": null,
+        "templateName": "CO Classic 2",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 15,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 23,
+        "systemId": 6,
+        "connectionTypeId": 1,
+        "variantId": 3,
+        "fittingConfigurationId": null,
+        "templateName": "CO Classic 3",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 15,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 24,
+        "systemId": 6,
+        "connectionTypeId": 1,
+        "variantId": 2,
+        "fittingConfigurationId": 13,
+        "templateName": "CO Classic 4",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-14"
+      },
+      {
+        "templateId": 25,
+        "systemId": 6,
+        "connectionTypeId": 1,
+        "variantId": 3,
+        "fittingConfigurationId": 13,
+        "templateName": "CO Classic 5",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-14"
+      },
+      {
+        "templateId": 26,
+        "systemId": 6,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 14,
+        "templateName": "CO Tich 1",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-14-20 + reducer"
+      },
+      {
+        "templateId": 27,
+        "systemId": 6,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 14,
+        "templateName": "CO Tich 2",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-14-20 + reducer"
+      },
+      {
+        "templateId": 28,
+        "systemId": 9,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "Fix Classic 1",
+        "loopPanel": 14,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 29,
+        "systemId": 9,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "Fix Classic 2",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 30,
+        "systemId": 9,
+        "connectionTypeId": 1,
+        "variantId": 2,
+        "fittingConfigurationId": null,
+        "templateName": "Fix Classic 3",
+        "loopPanel": 14,
+        "pipeBetweenPanels": null,
+        "feedPipes": 14,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 31,
+        "systemId": 9,
+        "connectionTypeId": 1,
+        "variantId": 3,
+        "fittingConfigurationId": null,
+        "templateName": "Fix Classic 4",
+        "loopPanel": 14,
+        "pipeBetweenPanels": null,
+        "feedPipes": 14,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 32,
+        "systemId": 9,
+        "connectionTypeId": 1,
+        "variantId": 2,
+        "fittingConfigurationId": null,
+        "templateName": "Fix Classic 5",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 15,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 33,
+        "systemId": 9,
+        "connectionTypeId": 1,
+        "variantId": 3,
+        "fittingConfigurationId": null,
+        "templateName": "Fix Classic 6",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 15,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 34,
+        "systemId": 12,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "SH Classic 1",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 35,
+        "systemId": 9,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 15,
+        "templateName": "Fix Tich 1",
+        "loopPanel": 14,
+        "pipeBetweenPanels": null,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-9,9-20 + reducer"
+      },
+      {
+        "templateId": 36,
+        "systemId": 9,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 15,
+        "templateName": "Fix Tich 2",
+        "loopPanel": 14,
+        "pipeBetweenPanels": null,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-9,9-20 + reducer"
+      },
+      {
+        "templateId": 37,
+        "systemId": 9,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 14,
+        "templateName": "Fix Tich 3",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-14-20 + reducer"
+      },
+      {
+        "templateId": 38,
+        "systemId": 9,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 14,
+        "templateName": "Fix Tich 4",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 18,
+        "fittingDescription": "Q&E Brass 20-14-20 + reducer"
+      },
+      {
+        "templateId": 39,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 16,
+        "templateName": "SH Tich 1",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 8,
+        "fittingDescription": "Q&E/S-Press PLUS Brass 40-14-40 + reducer"
+      },
+      {
+        "templateId": 40,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 16,
+        "templateName": "SH Tich 2",
+        "loopPanel": 15,
+        "pipeBetweenPanels": null,
+        "feedPipes": 8,
+        "fittingDescription": "Q&E/S-Press PLUS Brass 40-14-40 + reducer"
+      },
+      {
+        "templateId": 41,
+        "systemId": 4,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "I Classic 2",
+        "loopPanel": 16,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 42,
+        "systemId": 5,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "C Classic 2",
+        "loopPanel": 16,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 43,
+        "systemId": 4,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "I Classic 3",
+        "loopPanel": 17,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 44,
+        "systemId": 5,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "C Classic 3",
+        "loopPanel": 17,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 45,
+        "systemId": 4,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "I Classic 5",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 46,
+        "systemId": 5,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "C Classic 5",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 47,
+        "systemId": 7,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "SM Classic 5",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 48,
+        "systemId": 8,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "FP Classic 5",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 49,
+        "systemId": 12,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "SH Classic 5",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 50,
+        "systemId": 4,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "I Classic 6",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 51,
+        "systemId": 5,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "C Classic 6",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 52,
+        "systemId": 7,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "SM Classic 6",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 53,
+        "systemId": 8,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "FP Classic 6",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 54,
+        "systemId": 12,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "SH Classic 6",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 55,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 17,
+        "templateName": "I Tich 1",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 56,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 17,
+        "templateName": "I Tich 2",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 57,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 17,
+        "templateName": "C Tich 1",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 58,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 17,
+        "templateName": "C Tich 2",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 59,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 17,
+        "templateName": "SM Tich 1",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 60,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 17,
+        "templateName": "SH Tich 3",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 61,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 17,
+        "templateName": "SH Tich 4",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 62,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 18,
+        "templateName": "I Tich 3",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 63,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 18,
+        "templateName": "I Tich 4",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 64,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 18,
+        "templateName": "C Tich 3",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 65,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 18,
+        "templateName": "C Tich 4",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 66,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 18,
+        "templateName": "SM Tich 2",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 67,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 18,
+        "templateName": "SH Tich 5",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 68,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 18,
+        "templateName": "SH Tich 6",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "Q&E PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 69,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 19,
+        "templateName": "I Tich 5",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 70,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 19,
+        "templateName": "I Tich 6",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 71,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 19,
+        "templateName": "C Tich 5",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 72,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 19,
+        "templateName": "C Tich 6",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 73,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 19,
+        "templateName": "SM Tich 3",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 74,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 19,
+        "templateName": "SH Tich 7",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 75,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 19,
+        "templateName": "SH Tich 8",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + reducer"
+      },
+      {
+        "templateId": 76,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 20,
+        "templateName": "I Tich 7",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 77,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 20,
+        "templateName": "I Tich 8",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 78,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 20,
+        "templateName": "C Tich 7",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 79,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 20,
+        "templateName": "C Tich 8",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 80,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 20,
+        "templateName": "SM Tich 4",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 81,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 20,
+        "templateName": "SH Tich 9",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 82,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 20,
+        "templateName": "SH Tich 10",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 19,
+        "fittingDescription": "S-Press PLUS PPSU 25-20-25 + 25-20-20"
+      },
+      {
+        "templateId": 83,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 21,
+        "templateName": "I Tich 9",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + reducers"
+      },
+      {
+        "templateId": 84,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 21,
+        "templateName": "I Tich 10",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + reducers"
+      },
+      {
+        "templateId": 85,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 21,
+        "templateName": "C Tich 9",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + reducers"
+      },
+      {
+        "templateId": 86,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 21,
+        "templateName": "C Tich 10",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + reducers"
+      },
+      {
+        "templateId": 87,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 21,
+        "templateName": "SM Tich 5",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + reducers"
+      },
+      {
+        "templateId": 88,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 21,
+        "templateName": "SH Tich 11",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + reducers"
+      },
+      {
+        "templateId": 89,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 21,
+        "templateName": "SH Tich 12",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + reducers"
+      },
+      {
+        "templateId": 90,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 22,
+        "templateName": "I Tich 11",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + 32-20-25 + reducer"
+      },
+      {
+        "templateId": 91,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 22,
+        "templateName": "I Tich 12",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + 32-20-25 + reducer"
+      },
+      {
+        "templateId": 92,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 22,
+        "templateName": "C Tich 11",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + 32-20-25 + reducer"
+      },
+      {
+        "templateId": 93,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 22,
+        "templateName": "C Tich 12",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + 32-20-25 + reducer"
+      },
+      {
+        "templateId": 94,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 22,
+        "templateName": "SM Tich 6",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + 32-20-25 + reducer"
+      },
+      {
+        "templateId": 95,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 22,
+        "templateName": "SH Tich 13",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + 32-20-25 + reducer"
+      },
+      {
+        "templateId": 96,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 22,
+        "templateName": "SH Tich 14",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-20-32 + 32-20-25 + reducer"
+      },
+      {
+        "templateId": 97,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 23,
+        "templateName": "I Tich 13",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducers"
+      },
+      {
+        "templateId": 98,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 23,
+        "templateName": "I Tich 14",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducers"
+      },
+      {
+        "templateId": 99,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 23,
+        "templateName": "C Tich 13",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducers"
+      },
+      {
+        "templateId": 100,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 23,
+        "templateName": "C Tich 14",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducers"
+      },
+      {
+        "templateId": 101,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 23,
+        "templateName": "SM Tich 7",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducers"
+      },
+      {
+        "templateId": 102,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 23,
+        "templateName": "SH Tich 15",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducers"
+      },
+      {
+        "templateId": 103,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 23,
+        "templateName": "SH Tich 16",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducers"
+      },
+      {
+        "templateId": 104,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 24,
+        "templateName": "I Tich 15",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducer"
+      },
+      {
+        "templateId": 105,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 24,
+        "templateName": "I Tich 16",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducer"
+      },
+      {
+        "templateId": 106,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 24,
+        "templateName": "C Tich 15",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducer"
+      },
+      {
+        "templateId": 107,
+        "systemId": 5,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 24,
+        "templateName": "C Tich 16",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducer"
+      },
+      {
+        "templateId": 108,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 24,
+        "templateName": "SM Tich 8",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducer"
+      },
+      {
+        "templateId": 109,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 24,
+        "templateName": "SH Tich 17",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducer"
+      },
+      {
+        "templateId": 110,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 24,
+        "templateName": "SH Tich 18",
+        "loopPanel": 18,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-20-40 + reducer"
+      },
+      {
+        "templateId": 111,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 25,
+        "templateName": "I Tich 17",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-25-32 + reducer"
+      },
+      {
+        "templateId": 112,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 25,
+        "templateName": "I Tich 18",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-25-32 + reducer"
+      },
+      {
+        "templateId": 113,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 25,
+        "templateName": "SM Tich 9",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-25-32 + reducer"
+      },
+      {
+        "templateId": 114,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 25,
+        "templateName": "SH Tich 19",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-25-32 + reducer"
+      },
+      {
+        "templateId": 115,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 25,
+        "templateName": "SH Tich 20",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-25-32 + reducer"
+      },
+      {
+        "templateId": 116,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 26,
+        "templateName": "I Tich 19",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-25-32 + 32-25-25"
+      },
+      {
+        "templateId": 117,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 26,
+        "templateName": "I Tich 20",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-25-32 + 32-25-25"
+      },
+      {
+        "templateId": 118,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 26,
+        "templateName": "SM Tich 10",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-25-32 + 32-25-25"
+      },
+      {
+        "templateId": 119,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 26,
+        "templateName": "SH Tich 21",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-25-32 + 32-25-25"
+      },
+      {
+        "templateId": 120,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 26,
+        "templateName": "SH Tich 22",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 20,
+        "fittingDescription": "Q&E PPSU 32-25-32 + 32-25-25"
+      },
+      {
+        "templateId": 121,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 27,
+        "templateName": "I Tich 21",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-25-40 + reducers"
+      },
+      {
+        "templateId": 122,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 27,
+        "templateName": "I Tich 22",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-25-40 + reducers"
+      },
+      {
+        "templateId": 123,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 27,
+        "templateName": "SM Tich 11",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-25-40 + reducers"
+      },
+      {
+        "templateId": 124,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 27,
+        "templateName": "SH Tich 23",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-25-40 + reducers"
+      },
+      {
+        "templateId": 125,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 27,
+        "templateName": "SH Tich 24",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-25-40 + reducers"
+      },
+      {
+        "templateId": 126,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 28,
+        "templateName": "I Tich 23",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-25-40 + 40-25-32 + reducer"
+      },
+      {
+        "templateId": 127,
+        "systemId": 4,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 28,
+        "templateName": "I Tich 24",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-25-40 + 40-25-32 + reducer"
+      },
+      {
+        "templateId": 128,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 28,
+        "templateName": "SM Tich 12",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-25-40 + 40-25-32 + reducer"
+      },
+      {
+        "templateId": 129,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 28,
+        "templateName": "SH Tich 25",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-25-40 + 40-25-32 + reducer"
+      },
+      {
+        "templateId": 130,
+        "systemId": 12,
+        "connectionTypeId": 2,
+        "variantId": 6,
+        "fittingConfigurationId": 28,
+        "templateName": "SH Tich 26",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 21,
+        "fittingDescription": "Q&E PPSU 40-25-40 + 40-25-32 + reducer"
+      },
+      {
+        "templateId": 131,
+        "systemId": 7,
+        "connectionTypeId": 1,
+        "variantId": 1,
+        "fittingConfigurationId": null,
+        "templateName": "ST Classic 1",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": null,
+        "fittingDescription": null
+      },
+      {
+        "templateId": 132,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 29,
+        "templateName": "SM Tich 13",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 31,
+        "fittingDescription": "HDPE 75-25-75"
+      },
+      {
+        "templateId": 133,
+        "systemId": 10,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 29,
+        "templateName": "IR Tich 1",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 31,
+        "fittingDescription": "HDPE 75-25-75"
+      },
+      {
+        "templateId": 134,
+        "systemId": 11,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 29,
+        "templateName": "ST Tich 1",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 31,
+        "fittingDescription": "HDPE 75-25-75"
+      },
+      {
+        "templateId": 135,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 30,
+        "templateName": "SM Tich 14",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 32,
+        "fittingDescription": "HDPE 110-25-110"
+      },
+      {
+        "templateId": 136,
+        "systemId": 10,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 30,
+        "templateName": "IR Tich 2",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 32,
+        "fittingDescription": "HDPE 110-25-110"
+      },
+      {
+        "templateId": 137,
+        "systemId": 11,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 30,
+        "templateName": "ST Tich 2",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 32,
+        "fittingDescription": "HDPE 110-25-110"
+      },
+      {
+        "templateId": 138,
+        "systemId": 7,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 31,
+        "templateName": "SM Tich 15",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 33,
+        "fittingDescription": "HDPE 160-25-160"
+      },
+      {
+        "templateId": 139,
+        "systemId": 10,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 31,
+        "templateName": "IR Tich 3",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 33,
+        "fittingDescription": "HDPE 160-25-160"
+      },
+      {
+        "templateId": 140,
+        "systemId": 11,
+        "connectionTypeId": 2,
+        "variantId": 4,
+        "fittingConfigurationId": 31,
+        "templateName": "ST Tich 3",
+        "loopPanel": 19,
+        "pipeBetweenPanels": null,
+        "feedPipes": 33,
+        "fittingDescription": "HDPE 160-25-160"
+      }
+    ],
+    "templatesFittingsConfiguration": [
+      {
+        "fittingConfigurationId": 1,
+        "classicFeedPipesSupply": {
+          "id": 1039937,
+          "count": 1
+        },
+        "classicFeedPipesReturn": {
+          "id": 1039937,
+          "count": 1
+        },
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": null,
+        "tichelmannFeedPipesReturn2": null,
+        "tichelmannFeedPipesSupply3": null,
+        "tichelmannFeedPipesReturn3": null
+      },
+      {
+        "fittingConfigurationId": 2,
+        "classicFeedPipesSupply": {
+          "id": 1048545,
+          "count": 1
+        },
+        "classicFeedPipesReturn": {
+          "id": 1048545,
+          "count": 1
+        },
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": null,
+        "tichelmannFeedPipesReturn2": null,
+        "tichelmannFeedPipesSupply3": null,
+        "tichelmannFeedPipesReturn3": null
+      },
+      {
+        "fittingConfigurationId": 3,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1039937,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1039937,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1039950,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1039950,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1039950,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1039950,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 4,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1039949,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1039949,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1039950,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1039950,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 5,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1048553,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1048553,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1048553,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1048553,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 6,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1039938,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1039938,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1039955,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1039955,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1039955,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1039955,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 7,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1039953,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1039953,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1039955,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1039955,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 8,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1039940,
+            "count": 1
+          },
+          {
+            "id": 1039938,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1039940,
+            "count": 1
+          },
+          {
+            "id": 1039938,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1039958,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1039958,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1039958,
+            "count": 1
+          },
+          {
+            "id": 1039932,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1039958,
+            "count": 1
+          },
+          {
+            "id": 1039932,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 9,
+        "classicFeedPipesSupply": {
+          "id": 1020518,
+          "count": 1
+        },
+        "classicFeedPipesReturn": {
+          "id": 1020518,
+          "count": 1
+        },
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": null,
+        "tichelmannFeedPipesReturn2": null,
+        "tichelmannFeedPipesSupply3": null,
+        "tichelmannFeedPipesReturn3": null
+      },
+      {
+        "fittingConfigurationId": 10,
+        "classicFeedPipesSupply": {
+          "id": 1063939,
+          "count": 1
+        },
+        "classicFeedPipesReturn": {
+          "id": 1063939,
+          "count": 1
+        },
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": null,
+        "tichelmannFeedPipesReturn2": null,
+        "tichelmannFeedPipesSupply3": null,
+        "tichelmannFeedPipesReturn3": null
+      },
+      {
+        "fittingConfigurationId": 11,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1063939,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1063939,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1063938,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1063938,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1063938,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1063938,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 12,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1020518,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1020518,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1020524,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1020524,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1020524,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1020524,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 13,
+        "classicFeedPipesSupply": {
+          "id": 1063933,
+          "count": 1
+        },
+        "classicFeedPipesReturn": {
+          "id": 1063933,
+          "count": 1
+        },
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": null,
+        "tichelmannFeedPipesReturn2": null,
+        "tichelmannFeedPipesSupply3": null,
+        "tichelmannFeedPipesReturn3": null
+      },
+      {
+        "fittingConfigurationId": 14,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1063933,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1063933,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1063932,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1063932,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1063932,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1063932,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 15,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1020518,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1020518,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1020524,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1020524,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1020524,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1020524,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 16,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1063929,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1063929,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1063928,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1063928,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1063928,
+            "count": 1
+          },
+          {
+            "id": 1046908,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1063928,
+            "count": 1
+          },
+          {
+            "id": 1046908,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 17,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1008676,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1008676,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1008691,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1008691,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1008691,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1008691,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 18,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1008703,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1008703,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1008691,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1008691,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 19,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1039939,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1039939,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1039957,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1039957,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1039957,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1039957,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 20,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1039956,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1039956,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1039957,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1039957,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 21,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1001240,
+            "count": 1
+          },
+          {
+            "id": 1008676,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1001240,
+            "count": 1
+          },
+          {
+            "id": 1008676,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1001424,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1001424,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1001424,
+            "count": 1
+          },
+          {
+            "id": 1001245,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1001424,
+            "count": 1
+          },
+          {
+            "id": 1001245,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 22,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1008676,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1008676,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1001422,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1001422,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1001424,
+            "count": 1
+          },
+          {
+            "id": 1001245,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1001424,
+            "count": 1
+          },
+          {
+            "id": 1001245,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 23,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1008678,
+            "count": 1
+          },
+          {
+            "id": 1001240,
+            "count": 1
+          },
+          {
+            "id": 1008676,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1008678,
+            "count": 1
+          },
+          {
+            "id": 1001240,
+            "count": 1
+          },
+          {
+            "id": 1008676,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1008694,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1008694,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1008694,
+            "count": 1
+          },
+          {
+            "id": 1008683,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1008694,
+            "count": 1
+          },
+          {
+            "id": 1008683,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 24,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1063934,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1063934,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1008694,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1008694,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1008694,
+            "count": 1
+          },
+          {
+            "id": 1008683,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1008694,
+            "count": 1
+          },
+          {
+            "id": 1008683,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 25,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1001240,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1001240,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1001428,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1001428,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1001428,
+            "count": 1
+          },
+          {
+            "id": 1001245,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1001428,
+            "count": 1
+          },
+          {
+            "id": 1001245,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 26,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": null,
+        "tichelmannFeedPipesReturn1": null,
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1001426,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1001426,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1001428,
+            "count": 1
+          },
+          {
+            "id": 1001245,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1001428,
+            "count": 1
+          },
+          {
+            "id": 1001245,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 27,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1008678,
+            "count": 1
+          },
+          {
+            "id": 1001240,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1008678,
+            "count": 1
+          },
+          {
+            "id": 1001240,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1008695,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1008695,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1008695,
+            "count": 1
+          },
+          {
+            "id": 1008683,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1008695,
+            "count": 1
+          },
+          {
+            "id": 1008683,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 28,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 1001240,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 1001240,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 1008708,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 1008708,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 1008695,
+            "count": 1
+          },
+          {
+            "id": 1008683,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 1008695,
+            "count": 1
+          },
+          {
+            "id": 1008683,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 29,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 9999997,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 9999997,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 9999997,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 9999997,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 9999997,
+            "count": 1
+          },
+          {
+            "id": 9999996,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 9999997,
+            "count": 1
+          },
+          {
+            "id": 9999996,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 30,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 9999998,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 9999998,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 9999998,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 9999998,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 9999998,
+            "count": 1
+          },
+          {
+            "id": 1033653,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 9999998,
+            "count": 1
+          },
+          {
+            "id": 1033653,
+            "count": 1
+          }
+        ]
+      },
+      {
+        "fittingConfigurationId": 31,
+        "classicFeedPipesSupply": null,
+        "classicFeedPipesReturn": null,
+        "tichelmannFeedPipesSupply1": [
+          {
+            "id": 9999999,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn1": [
+          {
+            "id": 9999999,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply2": [
+          {
+            "id": 9999999,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn2": [
+          {
+            "id": 9999999,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesSupply3": [
+          {
+            "id": 9999999,
+            "count": 1
+          },
+          {
+            "id": 1033654,
+            "count": 1
+          }
+        ],
+        "tichelmannFeedPipesReturn3": [
+          {
+            "id": 9999999,
+            "count": 1
+          },
+          {
+            "id": 1033654,
+            "count": 1
+          }
+        ]
+      }
+    ]
+  },
+  "response1": {
+    "manifold": {
+      "id": 10,
+      "fluidId": 1,
+      "typeId": 9,
+      "segments": [
+        {
+          "id": 1,
+          "connectionType": 1,
+          "heatingEnable": true,
+          "coolingEnable": true,
+          "elements": [
+            {
+              "id": 1,
+              "type": "pipe",
+              "data": {
+                "length": 34,
+                "typeId": 18,
+                "subzone": 1
+              }
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "connectionType": 1,
+          "heatingEnable": true,
+          "coolingEnable": true,
+          "elements": [
+            {
+              "id": 1,
+              "type": "pipe",
+              "data": {
+                "length": 344,
+                "typeId": 18,
+                "subzone": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "subzones": [
+      {
+        "id": 1,
+        "modeHeating": {
+          "enable": true,
+          "internalTemperature": 21,
+          "supplyTemperature": 35,
+          "returnTemperature": 30,
+          "qUpwards": 45,
+          "qDownwards": 2
+        },
+        "modeCooling": {
+          "enable": true,
+          "internalTemperature": 26,
+          "supplyTemperature": 16,
+          "returnTemperature": 19,
+          "qUpwards": 20,
+          "qDownwards": 2
+        },
+        "pipe": {
+          "id": 18,
+          "insulation": {
+            "thikness": 0,
+            "pipeLambda": 0
+          },
+          "spacing": 200
+        }
+      },
+      {
+        "id": 1,
+        "modeHeating": {
+          "enable": true,
+          "internalTemperature": 21,
+          "supplyTemperature": 35,
+          "returnTemperature": 30,
+          "qUpwards": 45,
+          "qDownwards": 2
+        },
+        "modeCooling": {
+          "enable": true,
+          "internalTemperature": 26,
+          "supplyTemperature": 16,
+          "returnTemperature": 19,
+          "qUpwards": 20,
+          "qDownwards": 2
+        },
+        "pipe": {
+          "id": 18,
+          "insulation": {
+            "thikness": 0,
+            "pipeLambda": 0
+          },
+          "spacing": 200
+        }
       }
     ]
   }
