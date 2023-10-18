@@ -1083,7 +1083,8 @@
       "printLanguage": "English",
       "updateDate": "2023-10-04T18:06:38.114Z",
       "systems": [
-        4
+        4,
+        1
       ],
       "comment": "",
       "notes": "",
@@ -1092,7 +1093,7 @@
         {
           "id": 1,
           "position": 1,
-          "no": "1",
+          "no": "Subzone 1",
           "system": 4,
           "comment": "",
           "heating": true,
@@ -1109,6 +1110,52 @@
           "coolingTr": "19",
           "coolingQu": "20",
           "coolingQd": "2",
+          "thickness": "",
+          "lambda": ""
+        },
+        {
+          "id": 2,
+          "position": 2,
+          "no": "2",
+          "system": 13,
+          "comment": "h",
+          "heating": true,
+          "cooling": false,
+          "pipe": 6,
+          "pipeSpacing": "200",
+          "heatingTi": "21",
+          "heatingTs": "35",
+          "heatingTr": "30",
+          "heatingQu": "45",
+          "heatingQd": "7",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
+          "thickness": "",
+          "lambda": ""
+        },
+        {
+          "id": 3,
+          "position": 3,
+          "no": "Subzone 2",
+          "system": 4,
+          "comment": "",
+          "heating": true,
+          "cooling": false,
+          "pipe": 17,
+          "pipeSpacing": "230",
+          "heatingTi": "3",
+          "heatingTs": "4",
+          "heatingTr": "5",
+          "heatingQu": "6",
+          "heatingQd": "7",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
           "thickness": "",
           "lambda": ""
         }
@@ -1129,16 +1176,16 @@
       "id": "admin",
       "projects": [
         {
-          "id": 1,
-          "title": "P-0001287 SFH Muller Germany (DE) ver. A",
-          "updateDate": "2023-09-27T07:22:04.857Z",
-          "touchDate": "2023-10-05T10:35:41.111Z"
-        },
-        {
           "id": 8,
           "title": "P1 Kalkulacja1 Austria (AUT) ver. 1",
           "updateDate": "2023-10-04T18:06:38.114Z",
-          "touchDate": "2023-10-04T23:21:44.460Z"
+          "touchDate": "2023-10-16T07:02:48.685Z"
+        },
+        {
+          "id": 1,
+          "title": "P-0001287 SFH Muller Germany (DE) ver. A",
+          "updateDate": "2023-09-27T07:22:04.857Z",
+          "touchDate": "2023-10-10T19:38:58.008Z"
         },
         {
           "id": 7,
@@ -1330,7 +1377,9 @@
       "segments": [
         {
           "terminalUnitData": null,
-          "details": {},
+          "details": {
+            "type": 0
+          },
           "id": 1,
           "position": 1,
           "no": "m1.1",
@@ -1348,12 +1397,24 @@
           "feedPipesSubzoneId": null
         },
         {
-          "terminalUnitData": null,
-          "details": {},
+          "terminalUnitData": {
+            "heatingM": "250",
+            "heatingDp": "12",
+            "heatingTs": "35",
+            "heatingDt": "10",
+            "heatingTr": "25,00",
+            "coolingM": "",
+            "coolingDp": "",
+            "coolingTs": "",
+            "coolingDt": "",
+            "coolingTr": "",
+            "feedPipesTerminalUnit": ""
+          },
+          "details": null,
           "id": 2,
           "position": 2,
           "no": "m1.2",
-          "room": "2",
+          "room": "12",
           "comment": "",
           "system": 4,
           "heating": true,
@@ -1362,6 +1423,89 @@
           "pipeLengthToManifold": 3,
           "segmentSource": 2,
           "variant": 1,
+          "loopPanelsSubzoneId": 1,
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": null
+        },
+        {
+          "terminalUnitData": null,
+          "details": {
+            "type": 2,
+            "rowsData": [
+              {
+                "id": 1,
+                "position": 1,
+                "pipeLength": "1234",
+                "fittings": [
+                  {
+                    "id": 1048553,
+                    "count": 1
+                  }
+                ],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [],
+                "fittingsFeedPipes2": [],
+                "subzoneId": 1,
+                "subzoneFeedPipesId": 1
+              },
+              {
+                "id": 2,
+                "position": 2,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [],
+                "fittingsFeedPipes2": [],
+                "subzoneId": 1,
+                "subzoneFeedPipesId": 1
+              },
+              {
+                "id": 3,
+                "position": 3,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [],
+                "fittingsFeedPipes2": [],
+                "subzoneId": 1,
+                "subzoneFeedPipesId": 1
+              }
+            ]
+          },
+          "id": 3,
+          "position": 3,
+          "no": "m1.3",
+          "room": "",
+          "comment": "",
+          "system": 4,
+          "heating": true,
+          "cooling": false,
+          "connectionType": 2,
+          "pipeLengthToManifold": 3,
+          "segmentSource": 1,
+          "variant": 4,
+          "loopPanelsSubzoneId": 1,
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": 1
+        },
+        {
+          "terminalUnitData": null,
+          "details": null,
+          "id": 4,
+          "position": 4,
+          "no": "m1.4",
+          "room": "",
+          "comment": "",
+          "system": 4,
+          "heating": true,
+          "cooling": false,
+          "connectionType": 2,
+          "pipeLengthToManifold": 3,
+          "segmentSource": 1,
+          "variant": 5,
           "loopPanelsSubzoneId": 1,
           "pipesBetweenPanelsSubzoneId": null,
           "feedPipesSubzoneId": null
