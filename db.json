@@ -1081,7 +1081,7 @@
       "currentTitle": "P1 Kalkulacja1 Austria (AUT) ver. 1",
       "designer": "DeSi",
       "printLanguage": "English",
-      "updateDate": "2023-10-04T18:06:38.114Z",
+      "updateDate": "2023-10-16T10:51:52.391Z",
       "systems": [
         4,
         1
@@ -1117,12 +1117,12 @@
           "id": 2,
           "position": 2,
           "no": "2",
-          "system": 13,
+          "system": 14,
           "comment": "h",
           "heating": true,
           "cooling": false,
-          "pipe": 6,
-          "pipeSpacing": "200",
+          "pipe": 5,
+          "pipeSpacing": "",
           "heatingTi": "21",
           "heatingTs": "35",
           "heatingTr": "30",
@@ -1178,14 +1178,14 @@
         {
           "id": 8,
           "title": "P1 Kalkulacja1 Austria (AUT) ver. 1",
-          "updateDate": "2023-10-04T18:06:38.114Z",
-          "touchDate": "2023-10-16T07:02:48.685Z"
+          "updateDate": "2023-10-16T10:51:52.391Z",
+          "touchDate": "2023-10-20T13:09:01.609Z"
         },
         {
           "id": 1,
           "title": "P-0001287 SFH Muller Germany (DE) ver. A",
           "updateDate": "2023-09-27T07:22:04.857Z",
-          "touchDate": "2023-10-10T19:38:58.008Z"
+          "touchDate": "2023-10-20T07:20:10.322Z"
         },
         {
           "id": 7,
@@ -1820,6 +1820,107 @@
         "id": 33,
         "pipeTypeId": 5,
         "value": "160x6,8"
+      }
+    ],
+    "panelParameters": [
+      {
+        "id": 1,
+        "value": [
+          {
+            "id": 1,
+            "pipeLength": 9.6,
+            "areaHeating": 0.26,
+            "areaCooling": 0.26
+          },
+          {
+            "id": 2,
+            "pipeLength": 13.6,
+            "areaHeating": 0.37,
+            "areaCooling": 0.37
+          },
+          {
+            "id": 3,
+            "pipeLength": 17.6,
+            "areaHeating": 0.48,
+            "areaCooling": 0.48
+          },
+          {
+            "id": 4,
+            "pipeLength": 21.6,
+            "areaHeating": 0.6,
+            "areaCooling": 0.6
+          },
+          {
+            "id": 5,
+            "pipeLength": 25.6,
+            "areaHeating": 0.71,
+            "areaCooling": 0.71
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "value": [
+          {
+            "id": 1,
+            "pipeLength": 16.9,
+            "areaHeating": 0.8,
+            "areaCooling": 0.68
+          },
+          {
+            "id": 2,
+            "pipeLength": 20.9,
+            "areaHeating": 1,
+            "areaCooling": 0.85
+          },
+          {
+            "id": 3,
+            "pipeLength": 24.9,
+            "areaHeating": 1.2,
+            "areaCooling": 1.02
+          },
+          {
+            "id": 4,
+            "pipeLength": 28.9,
+            "areaHeating": 1.4,
+            "areaCooling": 1.19
+          },
+          {
+            "id": 5,
+            "pipeLength": 32.9,
+            "areaHeating": 1.6,
+            "areaCooling": 1.36
+          },
+          {
+            "id": 6,
+            "pipeLength": 36.9,
+            "areaHeating": 1.8,
+            "areaCooling": 1.53
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "value": [
+          {
+            "id": 1,
+            "pipeLength": 0.8,
+            "areaHeating": 0.5,
+            "areaCooling": 0.5
+          },
+          {
+            "id": 2,
+            "pipeLength": 1.2,
+            "areaHeating": 0.75,
+            "areaCooling": 0.75
+          },
+          {
+            "id": 3,
+            "pipeLength": 2,
+            "areaHeating": 1.25,
+            "areaCooling": 1.25
+          }
+        ]
       }
     ],
     "panels": [
