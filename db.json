@@ -1435,7 +1435,7 @@
               {
                 "id": 1,
                 "position": 1,
-                "pipeLength": "1234",
+                "pipeLength": "1",
                 "fittings": [
                   {
                     "id": 1048553,
@@ -1452,7 +1452,7 @@
               {
                 "id": 2,
                 "position": 2,
-                "pipeLength": "",
+                "pipeLength": "2",
                 "fittings": [],
                 "lengthFeedPipes1": "",
                 "lengthFeedPipes2": "",
@@ -1464,7 +1464,19 @@
               {
                 "id": 3,
                 "position": 3,
-                "pipeLength": "",
+                "pipeLength": "3",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [],
+                "fittingsFeedPipes2": [],
+                "subzoneId": 1,
+                "subzoneFeedPipesId": 1
+              },
+              {
+                "id": 4,
+                "position": 4,
+                "pipeLength": "4",
                 "fittings": [],
                 "lengthFeedPipes1": "",
                 "lengthFeedPipes2": "",
