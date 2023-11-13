@@ -1122,7 +1122,7 @@
           "heating": true,
           "cooling": false,
           "pipe": 5,
-          "pipeSpacing": "",
+          "pipeSpacing": "150",
           "heatingTi": "21",
           "heatingTs": "35",
           "heatingTr": "30",
@@ -1158,6 +1158,29 @@
           "coolingQd": "",
           "thickness": "",
           "lambda": ""
+        },
+        {
+          "id": 4,
+          "position": 4,
+          "no": "67",
+          "system": 1,
+          "comment": "",
+          "heating": true,
+          "cooling": true,
+          "pipe": 3,
+          "pipeSpacing": "",
+          "heatingTi": "32",
+          "heatingTs": "32",
+          "heatingTr": "28",
+          "heatingQu": "",
+          "heatingQd": "20",
+          "coolingTi": "26",
+          "coolingTs": "16",
+          "coolingTr": "19",
+          "coolingQu": "",
+          "coolingQd": "50",
+          "thickness": "",
+          "lambda": ""
         }
       ],
       "manifolds": [
@@ -1179,13 +1202,13 @@
           "id": 8,
           "title": "P1 Kalkulacja1 Austria (AUT) ver. 1",
           "updateDate": "2023-10-16T10:51:52.391Z",
-          "touchDate": "2023-10-20T13:09:01.609Z"
+          "touchDate": "2023-11-12T00:56:50.490Z"
         },
         {
           "id": 1,
           "title": "P-0001287 SFH Muller Germany (DE) ver. A",
           "updateDate": "2023-09-27T07:22:04.857Z",
-          "touchDate": "2023-10-20T07:20:10.322Z"
+          "touchDate": "2023-11-11T16:55:50.391Z"
         },
         {
           "id": 7,
@@ -1378,149 +1401,58 @@
         {
           "terminalUnitData": null,
           "details": {
-            "type": 0
-          },
-          "id": 1,
-          "position": 1,
-          "no": "m1.1",
-          "room": "1",
-          "comment": "",
-          "system": 4,
-          "heating": true,
-          "cooling": true,
-          "connectionType": 1,
-          "pipeLengthToManifold": 3,
-          "segmentSource": 2,
-          "variant": 1,
-          "loopPanelsSubzoneId": 1,
-          "pipesBetweenPanelsSubzoneId": null,
-          "feedPipesSubzoneId": null
-        },
-        {
-          "terminalUnitData": {
-            "heatingM": "250",
-            "heatingDp": "12",
-            "heatingTs": "35",
-            "heatingDt": "10",
-            "heatingTr": "25,00",
-            "coolingM": "",
-            "coolingDp": "",
-            "coolingTs": "",
-            "coolingDt": "",
-            "coolingTr": "",
-            "feedPipesTerminalUnit": ""
-          },
-          "details": null,
-          "id": 2,
-          "position": 2,
-          "no": "m1.2",
-          "room": "12",
-          "comment": "",
-          "system": 4,
-          "heating": true,
-          "cooling": true,
-          "connectionType": 1,
-          "pipeLengthToManifold": 3,
-          "segmentSource": 2,
-          "variant": 1,
-          "loopPanelsSubzoneId": 1,
-          "pipesBetweenPanelsSubzoneId": null,
-          "feedPipesSubzoneId": null
-        },
-        {
-          "terminalUnitData": null,
-          "details": {
-            "type": 2,
-            "rowsData": [
+            "type": 3,
+            "panels": [
               {
-                "id": 1,
                 "position": 1,
-                "pipeLength": "1",
-                "fittings": [
-                  {
-                    "id": 1048553,
-                    "count": 1
-                  }
-                ],
-                "lengthFeedPipes1": "",
-                "lengthFeedPipes2": "",
-                "fittingsFeedPipes1": [],
-                "fittingsFeedPipes2": [],
-                "subzoneId": 1,
-                "subzoneFeedPipesId": 1
+                "id": 1090937,
+                "count": 3
               },
               {
-                "id": 2,
                 "position": 2,
-                "pipeLength": "2",
-                "fittings": [],
-                "lengthFeedPipes1": "",
-                "lengthFeedPipes2": "",
-                "fittingsFeedPipes1": [],
-                "fittingsFeedPipes2": [],
-                "subzoneId": 1,
-                "subzoneFeedPipesId": 1
+                "id": 1090937,
+                "count": 0
               },
               {
-                "id": 3,
                 "position": 3,
-                "pipeLength": "3",
-                "fittings": [],
-                "lengthFeedPipes1": "",
-                "lengthFeedPipes2": "",
-                "fittingsFeedPipes1": [],
-                "fittingsFeedPipes2": [],
-                "subzoneId": 1,
-                "subzoneFeedPipesId": 1
+                "id": 1090937,
+                "count": 0
               },
               {
-                "id": 4,
                 "position": 4,
-                "pipeLength": "4",
-                "fittings": [],
-                "lengthFeedPipes1": "",
-                "lengthFeedPipes2": "",
-                "fittingsFeedPipes1": [],
-                "fittingsFeedPipes2": [],
-                "subzoneId": 1,
-                "subzoneFeedPipesId": 1
+                "id": 1090937,
+                "count": 0
+              },
+              {
+                "position": 5,
+                "id": 1090937,
+                "count": 0
               }
-            ]
+            ],
+            "pipesLengthPanels": 30,
+            "pipesLengthBetweenPanels": 0,
+            "pipesLengthFeedPipes": 0,
+            "pipesLengthFeedPipes1": 0,
+            "pipesLengthFeedPipes2": 0,
+            "fittingsBetweenPipes": [],
+            "fittingsFeedPipes1": [],
+            "fittingsFeedPipes2": []
           },
-          "id": 3,
-          "position": 3,
-          "no": "m1.3",
-          "room": "",
+          "id": 5,
+          "position": 5,
+          "no": "m1.1",
+          "room": "pan",
           "comment": "",
-          "system": 4,
+          "system": 1,
           "heating": true,
-          "cooling": false,
-          "connectionType": 2,
+          "cooling": true,
+          "connectionType": 1,
           "pipeLengthToManifold": 3,
           "segmentSource": 1,
-          "variant": 4,
-          "loopPanelsSubzoneId": 1,
-          "pipesBetweenPanelsSubzoneId": null,
-          "feedPipesSubzoneId": 1
-        },
-        {
-          "terminalUnitData": null,
-          "details": null,
-          "id": 4,
-          "position": 4,
-          "no": "m1.4",
-          "room": "",
-          "comment": "",
-          "system": 4,
-          "heating": true,
-          "cooling": false,
-          "connectionType": 2,
-          "pipeLengthToManifold": 3,
-          "segmentSource": 1,
-          "variant": 5,
-          "loopPanelsSubzoneId": 1,
-          "pipesBetweenPanelsSubzoneId": null,
-          "feedPipesSubzoneId": null
+          "variant": 8,
+          "loopPanelsSubzoneId": 4,
+          "pipesBetweenPanelsSubzoneId": 4,
+          "feedPipesSubzoneId": 4
         }
       ],
       "id": 10
