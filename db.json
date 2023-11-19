@@ -78,1013 +78,19 @@
   ],
   "projects": [
     {
-      "caseNumber": "P-0001287",
-      "name": "SFH Muller",
-      "deadline": "2023-08-07T22:00:00.000Z",
-      "country": "Germany (DE)",
-      "version": "A",
-      "currentTitle": "P-0001287 SFH Muller Germany (DE) ver. A",
-      "designer": "DeSi",
-      "printLanguage": "German",
-      "updateDate": "2023-09-27T07:22:04.857Z",
-      "systems": [
-        2,
-        5,
-        6,
-        7
-      ],
-      "subzones": [
-        {
-          "id": 2,
-          "position": 1,
-          "no": "n2",
-          "system": 5,
-          "comment": "kom",
-          "heating": true,
-          "cooling": true,
-          "pipe": 14,
-          "pipeSpacing": "130",
-          "heatingTi": "4,4",
-          "heatingTs": "5,5",
-          "heatingTr": "4,5",
-          "heatingQu": "5",
-          "heatingQd": "6",
-          "coolingTi": "7,7",
-          "coolingTs": "7",
-          "coolingTr": "8",
-          "coolingQu": "9",
-          "coolingQd": "2"
-        },
-        {
-          "id": 1,
-          "position": 2,
-          "no": "11a",
-          "system": 5,
-          "comment": "Office right part - loop",
-          "heating": true,
-          "cooling": true,
-          "pipe": 18,
-          "pipeSpacing": "150",
-          "heatingTi": "20,1",
-          "heatingTs": "35,1",
-          "heatingTr": "32,1",
-          "heatingQu": "4,1",
-          "heatingQd": "145,3",
-          "coolingTi": "12,1",
-          "coolingTs": "16,1",
-          "coolingTr": "19,5",
-          "coolingQu": "3,1",
-          "coolingQd": "30,8"
-        },
-        {
-          "id": 3,
-          "position": 3,
-          "no": "23",
-          "system": 6,
-          "comment": "fdgsgsg",
-          "heating": true,
-          "cooling": false,
-          "pipe": 2,
-          "pipeSpacing": "123",
-          "heatingTi": "21",
-          "heatingTs": "45",
-          "heatingTr": "30",
-          "heatingQu": "45",
-          "heatingQd": "5",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 4,
-          "position": 4,
-          "no": "3a",
-          "system": 14,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": 2,
-          "pipeSpacing": "",
-          "heatingTi": "25",
-          "heatingTs": "35",
-          "heatingTr": "30",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "6",
-          "lambda": "0,038"
-        },
-        {
-          "id": 5,
-          "position": 5,
-          "no": "12",
-          "system": 5,
-          "comment": "122",
-          "heating": true,
-          "cooling": false,
-          "pipe": 27,
-          "pipeSpacing": "122",
-          "heatingTi": "21",
-          "heatingTs": "45",
-          "heatingTr": "10",
-          "heatingQu": "55",
-          "heatingQd": "5",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        }
-      ],
-      "manifolds": [
-        4,
-        7,
-        8
-      ],
-      "id": 1,
-      "comment": "SFH Muller project",
-      "notes": "This is project SFH",
-      "manage": {
-        "creator": "admin",
-        "status": 1
-      }
-    },
-    {
-      "caseNumber": 123,
-      "name": "TEST 4",
-      "deadline": "2023-03-11T23:00:00.000Z",
-      "country": "Germany (DE)",
-      "version": "B",
-      "currentTitle": "123 TEST 4 Germany (DE) ver. B",
-      "designer": "DeSi",
-      "printLanguage": "German",
-      "updateDate": "2023-09-05T23:32:05.579Z",
-      "systems": [
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9,
-        10,
-        11,
-        12,
-        13,
-        14
-      ],
-      "subzones": [
-        {
-          "id": 1,
-          "position": 1,
-          "no": "THM 1 H",
-          "system": 1,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "MLC",
-          "pipeSpacing": "",
-          "dimension": "16x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 2,
-          "position": 2,
-          "no": "THM 2 C",
-          "system": 1,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "MLC",
-          "pipeSpacing": "",
-          "dimension": "16x2,0",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 3,
-          "position": 3,
-          "no": "THM 3 HC",
-          "system": 1,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": "MLC",
-          "pipeSpacing": "",
-          "dimension": "16x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "",
-          "heatingQd": "1",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 4,
-          "position": 4,
-          "no": "THS 1 H",
-          "system": 2,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "",
-          "dimension": "9,9x1,1",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 5,
-          "position": 5,
-          "no": "THS 2 C",
-          "system": 2,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "",
-          "dimension": "9,9x1,1",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 6,
-          "position": 6,
-          "no": "THS 3 HC",
-          "system": 2,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "",
-          "dimension": "9,9x1,1",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "",
-          "heatingQd": "1",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 7,
-          "position": 7,
-          "no": "RN 1 H",
-          "system": 3,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "",
-          "dimension": "9,9x1,1",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 8,
-          "position": 8,
-          "no": "RN 2 C",
-          "system": 3,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "",
-          "dimension": "9,9x1,1",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 9,
-          "position": 9,
-          "no": "RN 3 HC",
-          "system": 3,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "",
-          "dimension": "9,9x1,1",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "",
-          "heatingQd": "1",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 10,
-          "position": 10,
-          "no": "I 1 H",
-          "system": 4,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "150",
-          "dimension": "20x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 11,
-          "position": 11,
-          "no": "I 2 C",
-          "system": 4,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "150",
-          "dimension": "20x2,0",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 12,
-          "position": 12,
-          "no": "I 3 HC",
-          "system": 4,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "200",
-          "dimension": "20x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 13,
-          "position": 13,
-          "no": "C 1 H",
-          "system": 5,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "150",
-          "dimension": "20x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 14,
-          "position": 14,
-          "no": "C 2 C",
-          "system": 5,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "150",
-          "dimension": "20x2,0",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 15,
-          "position": 15,
-          "no": "C 3 HC",
-          "system": 5,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "200",
-          "dimension": "20x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 16,
-          "position": 16,
-          "no": "CO 1 H",
-          "system": 6,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "150",
-          "dimension": "20x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 17,
-          "position": 17,
-          "no": "CO 2 C",
-          "system": 6,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "150",
-          "dimension": "20x2,0",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 18,
-          "position": 18,
-          "no": "CO 3 HC",
-          "system": 6,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "200",
-          "dimension": "20x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 19,
-          "position": 19,
-          "no": "SM 1 H",
-          "system": 7,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "150",
-          "dimension": "20x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 20,
-          "position": 20,
-          "no": "FP 1 H",
-          "system": 8,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "150",
-          "dimension": "25x2,3",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 21,
-          "position": 21,
-          "no": "FIX 1 H",
-          "system": 9,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "100",
-          "dimension": "14x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 22,
-          "position": 22,
-          "no": "FIX 2 C",
-          "system": 9,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "100",
-          "dimension": "14x2,0",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 23,
-          "position": 23,
-          "no": "FIX 3 HC",
-          "system": 9,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "100",
-          "dimension": "14x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 24,
-          "position": 24,
-          "no": "IR 1 C",
-          "system": 10,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "250",
-          "dimension": "25x2,3",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 25,
-          "position": 25,
-          "no": "ST 1 H",
-          "system": 11,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "500",
-          "dimension": "25x2,3",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 26,
-          "position": 26,
-          "no": "SH 1 H",
-          "system": 12,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "100",
-          "dimension": "14x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 27,
-          "position": 27,
-          "no": "SH 2 C",
-          "system": 12,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "100",
-          "dimension": "14x2,0",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 28,
-          "position": 28,
-          "no": "SH 3 HC",
-          "system": 12,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "100",
-          "dimension": "14x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 29,
-          "position": 29,
-          "no": "ForTU 1 H",
-          "system": 13,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "100",
-          "dimension": "14x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 30,
-          "position": 30,
-          "no": "ForTU 2 C",
-          "system": 13,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "100",
-          "dimension": "14x2,0",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 31,
-          "position": 31,
-          "no": "ForTU 3 HC",
-          "system": 13,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "100",
-          "dimension": "14x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "1",
-          "heatingQd": "1",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "2",
-          "coolingQd": "2",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 32,
-          "position": 32,
-          "no": "Air 1 H",
-          "system": 14,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "",
-          "dimension": "14x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "30",
-          "lambda": "0,035"
-        },
-        {
-          "id": 33,
-          "position": 33,
-          "no": "Air 2 C",
-          "system": 14,
-          "comment": "",
-          "heating": false,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "100",
-          "dimension": "14x2,0",
-          "heatingTi": "",
-          "heatingTs": "",
-          "heatingTr": "",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "30",
-          "lambda": "0,035"
-        },
-        {
-          "id": 34,
-          "position": 34,
-          "no": "Air 3 HC",
-          "system": 14,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": "PE-Xa",
-          "pipeSpacing": "",
-          "dimension": "14x2,0",
-          "heatingTi": "1",
-          "heatingTs": "1",
-          "heatingTr": "1",
-          "heatingQu": "",
-          "heatingQd": "",
-          "coolingTi": "2",
-          "coolingTs": "2",
-          "coolingTr": "2",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "30",
-          "lambda": "0,035"
-        }
-      ],
-      "manifolds": [
-        9
-      ],
-      "id": 7,
-      "manage": {
-        "creator": "1",
-        "status": 0
-      }
-    },
-    {
-      "caseNumber": "P1",
-      "name": "Kalkulacja1",
-      "deadline": "2023-10-04T22:00:00.000Z",
+      "caseNumber": "2",
+      "name": "2",
+      "deadline": "2023-11-23T23:00:00.000Z",
       "country": "Austria (AUT)",
       "version": "1",
-      "currentTitle": "P1 Kalkulacja1 Austria (AUT) ver. 1",
+      "currentTitle": "2 2 Austria (AUT) ver. 1",
       "designer": "DeSi",
-      "printLanguage": "English",
-      "updateDate": "2023-10-16T10:51:52.391Z",
+      "printLanguage": "German",
+      "updateDate": "2023-11-18T23:42:55.440Z",
       "systems": [
+        1,
         4,
-        1
+        10
       ],
       "comment": "",
       "notes": "",
@@ -1093,105 +99,37 @@
         {
           "id": 1,
           "position": 1,
-          "no": "Subzone 1",
+          "no": "1",
           "system": 4,
           "comment": "",
           "heating": true,
           "cooling": true,
-          "pipe": 18,
+          "pipe": 2,
           "pipeSpacing": "200",
-          "heatingTi": "21",
-          "heatingTs": "35",
-          "heatingTr": "30",
-          "heatingQu": "45",
-          "heatingQd": "5",
+          "heatingTi": "20",
+          "heatingTs": "56",
+          "heatingTr": "45",
+          "heatingQu": "3",
+          "heatingQd": "4",
           "coolingTi": "26",
           "coolingTs": "16",
           "coolingTr": "19",
-          "coolingQu": "20",
-          "coolingQd": "2",
+          "coolingQu": "5",
+          "coolingQd": "6",
           "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 2,
-          "position": 2,
-          "no": "2",
-          "system": 14,
-          "comment": "h",
-          "heating": true,
-          "cooling": false,
-          "pipe": 5,
-          "pipeSpacing": "150",
-          "heatingTi": "21",
-          "heatingTs": "35",
-          "heatingTr": "30",
-          "heatingQu": "45",
-          "heatingQd": "7",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 3,
-          "position": 3,
-          "no": "Subzone 2",
-          "system": 4,
-          "comment": "",
-          "heating": true,
-          "cooling": false,
-          "pipe": 17,
-          "pipeSpacing": "230",
-          "heatingTi": "3",
-          "heatingTs": "4",
-          "heatingTr": "5",
-          "heatingQu": "6",
-          "heatingQd": "7",
-          "coolingTi": "",
-          "coolingTs": "",
-          "coolingTr": "",
-          "coolingQu": "",
-          "coolingQd": "",
-          "thickness": "",
-          "lambda": ""
-        },
-        {
-          "id": 4,
-          "position": 4,
-          "no": "67",
-          "system": 1,
-          "comment": "",
-          "heating": true,
-          "cooling": true,
-          "pipe": 3,
-          "pipeSpacing": "",
-          "heatingTi": "32",
-          "heatingTs": "32",
-          "heatingTr": "28",
-          "heatingQu": "",
-          "heatingQd": "20",
-          "coolingTi": "26",
-          "coolingTs": "16",
-          "coolingTr": "19",
-          "coolingQu": "",
-          "coolingQd": "50",
-          "thickness": "",
-          "lambda": ""
+          "lambda": "",
+          "insulation": false
         }
       ],
       "manifolds": [
-        10
+        11
       ],
-      "creationDate": "2023-10-04T18:06:38.114Z",
+      "creationDate": "2023-11-18T23:42:55.440Z",
       "manage": {
         "creator": "admin",
         "status": 0
       },
-      "id": 8
+      "id": 9
     }
   ],
   "lastProjects": [
@@ -1199,263 +137,45 @@
       "id": "admin",
       "projects": [
         {
-          "id": 8,
-          "title": "P1 Kalkulacja1 Austria (AUT) ver. 1",
-          "updateDate": "2023-10-16T10:51:52.391Z",
-          "touchDate": "2023-11-12T00:56:50.490Z"
-        },
-        {
-          "id": 1,
-          "title": "P-0001287 SFH Muller Germany (DE) ver. A",
-          "updateDate": "2023-09-27T07:22:04.857Z",
-          "touchDate": "2023-11-11T16:55:50.391Z"
-        },
-        {
-          "id": 7,
-          "title": "123 TEST 4 Germany (DE) ver. B",
-          "updateDate": "2023-09-05T23:32:05.579Z",
-          "touchDate": "2023-09-21T13:01:16.704Z"
+          "id": 9,
+          "title": "2 2 Austria (AUT) ver. 1",
+          "updateDate": "2023-11-18T23:42:55.440Z",
+          "touchDate": "2023-11-19T00:19:01.624Z"
         }
       ]
-    },
-    {
-      "id": "test",
-      "projects": null
     }
   ],
   "manifolds": [
     {
-      "id": 1,
-      "position": 1,
       "name": "Manifold",
       "number": "1",
       "comment": "",
       "fluid": 1,
-      "concentration": "",
-      "manifoldType": 2,
-      "manifoldAssemblyMethod": "On wall",
-      "segments": []
-    },
-    {
-      "id": 2,
-      "position": 2,
-      "name": "Part",
-      "number": "2",
-      "comment": "",
-      "fluid": 1,
-      "concentration": "",
-      "manifoldType": "",
-      "manifoldAssemblyMethod": "",
-      "segments": []
-    },
-    {
-      "id": 3,
-      "position": 3,
-      "name": "Manifold",
-      "number": "5",
-      "comment": "",
-      "fluid": 1,
-      "concentration": "",
-      "manifoldType": 3,
-      "manifoldAssemblyMethod": "On wall",
-      "segments": []
-    },
-    {
-      "id": 4,
-      "position": 1,
-      "name": "Manifold",
-      "number": "1",
-      "comment": "",
-      "fluid": 1,
-      "concentration": "",
-      "manifoldType": 2,
-      "manifoldAssemblyMethod": "On wall",
-      "segments": []
-    },
-    {
-      "id": 7,
-      "position": 2,
-      "name": "Manifold",
-      "number": "3",
-      "comment": "",
-      "fluid": 1,
-      "concentration": "",
-      "manifoldType": 2,
-      "manifoldAssemblyMethod": "On wall",
-      "segments": [
-        {
-          "terminalUnitData": null,
-          "details": {
-            "pipeLength": "123",
-            "fittings": [
-              {
-                "id": 9999998,
-                "count": 2
-              },
-              {
-                "id": 9999997,
-                "count": 3
-              }
-            ]
-          },
-          "id": 4,
-          "position": 6,
-          "no": "3.5",
-          "room": "6",
-          "comment": "",
-          "system": 5,
-          "heating": true,
-          "cooling": false,
-          "connectionType": 1,
-          "pipeLengthToManifold": 3,
-          "segmentSource": 2,
-          "variant": 1,
-          "loopPanelsSubzoneId": 1,
-          "pipesBetweenPanelsSubzoneId": null,
-          "feedPipesSubzoneId": null
-        },
-        {
-          "terminalUnitData": {
-            "heatingM": "1",
-            "heatingDp": "1",
-            "heatingTs": "1",
-            "heatingDt": "0,3",
-            "heatingTr": "0,70",
-            "coolingM": "",
-            "coolingDp": "",
-            "coolingTs": "",
-            "coolingDt": "",
-            "coolingTr": "",
-            "feedPipesTerminalUnit": ""
-          },
-          "details": {},
-          "id": 5,
-          "position": 7,
-          "no": "3.6",
-          "room": "7",
-          "comment": "",
-          "system": 15,
-          "heating": true,
-          "cooling": false,
-          "connectionType": 1,
-          "segmentSource": 2,
-          "variant": 13,
-          "loopPanelsSubzoneId": null,
-          "pipesBetweenPanelsSubzoneId": null,
-          "feedPipesSubzoneId": null
-        },
-        {
-          "terminalUnitData": null,
-          "details": {},
-          "id": 6,
-          "position": 8,
-          "no": "3.7",
-          "room": "4",
-          "comment": "",
-          "system": 5,
-          "heating": true,
-          "cooling": false,
-          "connectionType": 1,
-          "pipeLengthToManifold": 3,
-          "segmentSource": 2,
-          "variant": 1,
-          "loopPanelsSubzoneId": 5,
-          "pipesBetweenPanelsSubzoneId": null,
-          "feedPipesSubzoneId": null
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "position": 3,
-      "name": "Manifold",
-      "number": "4",
-      "comment": "",
-      "fluid": 1,
-      "concentration": "",
-      "manifoldType": 2,
-      "manifoldAssemblyMethod": "On wall",
-      "segments": []
-    },
-    {
-      "id": 9,
-      "position": 1,
-      "name": "Manifold",
-      "number": "1",
-      "comment": "",
-      "fluid": 1,
-      "concentration": "",
-      "manifoldType": 1,
-      "manifoldAssemblyMethod": "On wall",
-      "segments": []
-    },
-    {
-      "name": "Manifold",
-      "number": "m1",
-      "comment": "",
-      "fluid": 1,
-      "manifoldType": 9,
+      "manifoldType": 11,
       "manifoldAssemblyMethod": "On wall",
       "position": 1,
       "segments": [
         {
           "terminalUnitData": null,
-          "details": {
-            "type": 3,
-            "panels": [
-              {
-                "position": 1,
-                "id": 1090937,
-                "count": 3
-              },
-              {
-                "position": 2,
-                "id": 1090937,
-                "count": 0
-              },
-              {
-                "position": 3,
-                "id": 1090937,
-                "count": 0
-              },
-              {
-                "position": 4,
-                "id": 1090937,
-                "count": 0
-              },
-              {
-                "position": 5,
-                "id": 1090937,
-                "count": 0
-              }
-            ],
-            "pipesLengthPanels": 30,
-            "pipesLengthBetweenPanels": 0,
-            "pipesLengthFeedPipes": 0,
-            "pipesLengthFeedPipes1": 0,
-            "pipesLengthFeedPipes2": 0,
-            "fittingsBetweenPipes": [],
-            "fittingsFeedPipes1": [],
-            "fittingsFeedPipes2": []
-          },
-          "id": 5,
-          "position": 5,
-          "no": "m1.1",
-          "room": "pan",
+          "details": null,
+          "id": 1,
+          "position": 1,
+          "no": "1.1",
+          "room": "",
           "comment": "",
-          "system": 1,
+          "system": 4,
           "heating": true,
           "cooling": true,
           "connectionType": 1,
           "pipeLengthToManifold": 3,
           "segmentSource": 1,
-          "variant": 8,
-          "loopPanelsSubzoneId": 4,
-          "pipesBetweenPanelsSubzoneId": 4,
-          "feedPipesSubzoneId": 4
+          "variant": 1,
+          "loopPanelsSubzoneId": 1,
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": null
         }
       ],
-      "id": 10
+      "id": 11
     }
   ],
   "userSettingsDictionaries": [
@@ -2028,10 +748,6 @@
       },
       {
         "id": 3,
-        "value": "Q&E/S-Press"
-      },
-      {
-        "id": 4,
         "value": "HDPE"
       }
     ],
@@ -2071,987 +787,1029 @@
         "fittingTypeId": 1,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor RTM coupling PPSU 16-16"
+        "value": "RTM  Coupling PPSU 16-16"
       },
       {
         "id": 1048553,
         "fittingTypeId": 1,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor RTM tee reducer PPSU 20-16-20"
+        "value": "RTM  Tee red. PPSU 20-16-20"
       },
       {
         "id": 1048554,
         "fittingTypeId": 1,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor RTM tee reducer PPSU 20-16-20"
+        "value": "RTM  Tee red. PPSU 20-16-16"
       },
       {
         "id": 1048545,
         "fittingTypeId": 1,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor RTM reducer PPSU 20-16"
+        "value": "RTM  Reducer PPSU 20-16"
       },
       {
         "id": 1008679,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
-        "value": "Uponor Q&E elbow PPSU 16-16"
+        "value": "Q&E  Elbow 90° PPSU 16-16"
       },
       {
         "id": 1008680,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
-        "value": "Uponor Q&E elbow PPSU 20-20"
+        "value": "Q&E  Elbow 90° PPSU 20-20"
       },
       {
         "id": 1008681,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
-        "value": "Uponor Q&E elbow PPSU 25-25"
+        "value": "Q&E  Elbow 90° PPSU 25-25"
       },
       {
-        "id": 1008682,
+        "id": 1001245,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
-        "value": "Uponor Q&E elbow PPSU 32-32"
+        "value": "Q&E  Elbow 90° PPSU 32-32"
       },
       {
         "id": 1008683,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
-        "value": "Uponor Q&E elbow PPSU 40-40"
+        "value": "Q&E  Elbow 90° PPSU 40-40"
       },
       {
         "id": 1042859,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
-        "value": "Uponor Q&E elbow PPSU 50-50"
+        "value": "Q&E  Elbow 90° PPSU 50-50"
       },
       {
         "id": 1042858,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
-        "value": "Uponor Q&E elbow PPSU 63-63"
+        "value": "Q&E  Elbow 90° PPSU 63-63"
       },
       {
         "id": 1085080,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 4,
-        "value": "Uponor Q&E elbow PPSU 75-75"
+        "value": "Q&E  Elbow 90° PPSU 75-75"
       },
       {
         "id": 1008669,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor Q&E coupling PPSU 16-16"
+        "value": "Q&E  Coupling PPSU 16-16"
       },
       {
         "id": 1008932,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor Q&E coupling PPSU 20-20"
+        "value": "Q&E  Coupling PPSU 20-20"
       },
       {
         "id": 1008671,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor Q&E coupling PPSU 25-25"
+        "value": "Q&E  Coupling PPSU 25-25"
       },
       {
         "id": 1001235,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor Q&E coupling PPSU 32-32"
+        "value": "Q&E  Coupling PPSU 32-32"
       },
       {
         "id": 1008673,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor Q&E coupling PPSU 40-40"
+        "value": "Q&E  Coupling PPSU 40-40"
       },
       {
         "id": 1042866,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor Q&E coupling PPSU 50-50"
+        "value": "Q&E  Coupling PPSU 50-50"
       },
       {
         "id": 1042865,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor Q&E coupling PPSU 63-63"
+        "value": "Q&E  Coupling PPSU 63-63"
       },
       {
         "id": 1085084,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor Q&E coupling PPSU 75-75"
+        "value": "Q&E  Coupling PPSU 75-75"
       },
       {
         "id": 1008674,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 20-16"
+        "value": "Q&E  Reducer PPSU 20-16"
       },
       {
         "id": 1008675,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 25-16"
+        "value": "Q&E  Reducer PPSU 25-16"
       },
       {
         "id": 1008676,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 25-20"
+        "value": "Q&E  Reducer PPSU 25-20"
       },
       {
         "id": 1001240,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 32-25"
+        "value": "Q&E  Reducer PPSU 32-25"
       },
       {
         "id": 1008678,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 40-32"
+        "value": "Q&E  Reducer PPSU 40-32"
       },
       {
         "id": 1042879,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 50-32"
+        "value": "Q&E  Reducer PPSU 50-32"
       },
       {
         "id": 1042867,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 50-40"
+        "value": "Q&E  Reducer PPSU 50-40"
       },
       {
         "id": 1042878,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 63-40"
+        "value": "Q&E  Reducer PPSU 63-40"
       },
       {
         "id": 1042877,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 63-50"
+        "value": "Q&E  Reducer PPSU 63-50"
       },
       {
         "id": 1085086,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 75-50"
+        "value": "Q&E  Reducer PPSU 75-50"
       },
       {
         "id": 1085085,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer PPSU 75-63"
+        "value": "Q&E  Reducer PPSU 75-63"
       },
       {
         "id": 1008684,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
-        "value": "Uponor Q&E tee PPSU 16-16-16"
+        "value": "Q&E  Tee PPSU 16-16-16"
       },
       {
         "id": 1008685,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
-        "value": "Uponor Q&E tee PPSU 20-20-20"
+        "value": "Q&E  Tee PPSU 20-20-20"
       },
       {
         "id": 1008686,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
-        "value": "Uponor Q&E tee PPSU 25-25-25"
+        "value": "Q&E  Tee PPSU 25-25-25"
       },
       {
         "id": 1001250,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
-        "value": "Uponor Q&E tee PPSU 32-32-32"
+        "value": "Q&E  Tee PPSU 32-32-32"
       },
       {
         "id": 1008688,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
-        "value": "Uponor Q&E tee PPSU 40-40-40"
+        "value": "Q&E  Tee PPSU 40-40-40"
       },
       {
         "id": 1042861,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
-        "value": "Uponor Q&E tee PPSU 50-50-50"
+        "value": "Q&E  Tee PPSU 50-50-50"
       },
       {
         "id": 1042860,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
-        "value": "Uponor Q&E tee PPSU 63-63-63"
+        "value": "Q&E  Tee PPSU 63-63-63"
       },
       {
         "id": 1085081,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
-        "value": "Uponor Q&E tee PPSU 75-75-75"
+        "value": "Q&E  Tee PPSU 75-75-75"
       },
       {
         "id": 1008710,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 16-20-16"
+        "value": "Q&E  Tee red. PPSU 16-20-16"
       },
       {
         "id": 1008700,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 20-16-16"
+        "value": "Q&E  Tee red. PPSU 20-16-16"
       },
       {
         "id": 1008689,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 20-16-20"
+        "value": "Q&E  Tee red. PPSU 20-16-20"
       },
       {
         "id": 1008697,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 20-20-16"
+        "value": "Q&E  Tee red. PPSU 20-20-16"
       },
       {
         "id": 1008711,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 20-25-20"
+        "value": "Q&E  Tee red. PPSU 20-25-20"
       },
       {
         "id": 1008702,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 25-16-16"
+        "value": "Q&E  Tee red. PPSU 25-16-16"
       },
       {
         "id": 1008699,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 25-16-20"
+        "value": "Q&E  Tee red. PPSU 25-16-20"
       },
       {
         "id": 1008690,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 25-16-25"
+        "value": "Q&E  Tee red. PPSU 25-16-25"
       },
       {
         "id": 1008701,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 25-20-16"
+        "value": "Q&E  Tee red. PPSU 25-20-16"
       },
       {
         "id": 1008703,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 25-20-20"
+        "value": "Q&E  Tee red. PPSU 25-20-20"
       },
       {
         "id": 1008691,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 25-20-25"
+        "value": "Q&E  Tee red. PPSU 25-20-25"
       },
       {
         "id": 1001420,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 25-25-20"
+        "value": "Q&E  Tee red. PPSU 25-25-20"
       },
       {
         "id": 1008712,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 25-32-25"
+        "value": "Q&E  Tee red. PPSU 25-32-25"
       },
       {
         "id": 1001422,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 32-20-25"
+        "value": "Q&E  Tee red. PPSU 32-20-25"
       },
       {
         "id": 1001424,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 32-20-32"
+        "value": "Q&E  Tee red. PPSU 32-20-32"
       },
       {
         "id": 1008704,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 32-25-20"
+        "value": "Q&E  Tee red. PPSU 32-25-20"
       },
       {
         "id": 1001426,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 32-25-25"
+        "value": "Q&E  Tee red. PPSU 32-25-25"
       },
       {
         "id": 1001428,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 32-25-32"
+        "value": "Q&E  Tee red. PPSU 32-25-32"
       },
       {
         "id": 1008713,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 32-40-32"
+        "value": "Q&E  Tee red. PPSU 32-40-32"
       },
       {
         "id": 1008707,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 40-20-32"
+        "value": "Q&E  Tee red. PPSU 40-20-32"
       },
       {
         "id": 1008694,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 40-20-40"
+        "value": "Q&E  Tee red. PPSU 40-20-40"
       },
       {
         "id": 1008708,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 40-25-32"
+        "value": "Q&E  Tee red. PPSU 40-25-32"
       },
       {
         "id": 1008695,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 40-25-40"
+        "value": "Q&E  Tee red. PPSU 40-25-40"
       },
       {
         "id": 1008709,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 40-32-32"
+        "value": "Q&E  Tee red. PPSU 40-32-32"
       },
       {
         "id": 1008696,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 40-32-40"
+        "value": "Q&E  Tee red. PPSU 40-32-40"
       },
       {
         "id": 1042876,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 50-25-40"
+        "value": "Q&E  Tee red. PPSU 50-25-40"
       },
       {
         "id": 1042864,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 50-25-50"
+        "value": "Q&E  Tee red. PPSU 50-25-50"
       },
       {
         "id": 1042863,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 50-32-50"
+        "value": "Q&E  Tee red. PPSU 50-32-50"
       },
       {
         "id": 1042862,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 50-40-40"
+        "value": "Q&E  Tee red. PPSU 50-40-40"
       },
       {
         "id": 1042875,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 50-40-50"
+        "value": "Q&E  Tee red. PPSU 50-40-50"
       },
       {
         "id": 1042871,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 63-25-50"
+        "value": "Q&E  Tee red. PPSU 63-25-50"
       },
       {
         "id": 1042873,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 63-25-63"
+        "value": "Q&E  Tee red. PPSU 63-25-63"
       },
       {
         "id": 1042870,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 63-32-63"
+        "value": "Q&E  Tee red. PPSU 63-32-63"
       },
       {
         "id": 1042869,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 63-40-40"
+        "value": "Q&E  Tee red. PPSU 63-40-40"
       },
       {
         "id": 1042872,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 63-40-63"
+        "value": "Q&E  Tee red. PPSU 63-40-63"
       },
       {
         "id": 1042868,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 63-50-50"
+        "value": "Q&E  Tee red. PPSU 63-50-63"
       },
       {
         "id": 1042874,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 63-50-63"
+        "value": "Q&E  Tee red. PPSU 63-50-50"
       },
       {
         "id": 1085083,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 75-25-75"
+        "value": "Q&E  Tee red. PPSU 75-25-75"
       },
       {
         "id": 1085082,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reducer PPSU 75-40-75"
+        "value": "Q&E  Tee red. PPSU 75-40-75"
       },
       {
         "id": 1020518,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer. rings Minitec 20xMinitec9.9"
+        "value": "Q&E  Reducer Brass 20-9.9"
       },
       {
         "id": 1020524,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee reduced. rings Minitec 20xMinitec9.9xQ&E20"
+        "value": "Q&E  Tee red. Brass 20-9.9-20"
       },
       {
         "id": 1063932,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee 20-14-20"
+        "value": "Q&E  Tee red. Brass 20-14-20"
       },
       {
         "id": 1072005,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor Q&E coupling CE PPSU 20-20"
+        "value": "Q&E  Coupling PPSU 20-20"
       },
       {
         "id": 1058659,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
-        "value": "Uponor Q&E coupling. rings DR 14-14"
+        "value": "Q&E  Coupling Brass 14-14"
       },
       {
         "id": 1063933,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer 20-14"
+        "value": "Q&E  Reducer Brass 20-14"
       },
       {
         "id": 1063939,
         "fittingTypeId": 3,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
-        "value": "Uponor Q&E reducer 20-9.9"
+        "value": "Q&E/S-Press  Reducer Brass 20-9.9"
       },
       {
         "id": 1063929,
         "fittingTypeId": 3,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
-        "value": "Uponor Q&E adapter S-Press 40-Q&E14"
+        "value": "Q&E/S-Press  Reducer Brass 40-14"
       },
       {
         "id": 1063938,
         "fittingTypeId": 3,
-        "fittingRawMaterialId": 3,
+        "fittingRawMaterialId": 2,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee adapter S-Press 20-Q&E9.9-Press20"
+        "value": "Q&E/S-Press  Tee red. Brass 20-9.9-20"
       },
       {
         "id": 1063928,
         "fittingTypeId": 3,
-        "fittingRawMaterialId": 3,
+        "fittingRawMaterialId": 2,
         "fittingKindId": 2,
-        "value": "Uponor Q&E tee adapter S-Press 40-Q&E14-Press40"
+        "value": "Q&E/S-Press  Tee red. Brass 40-14-40"
       },
       {
         "id": 1005264,
         "fittingTypeId": 3,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
-        "value": "Uponor Minitec coupling. rings 9.9x1.1"
+        "value": "Q&E/S-Press  Coupling Brass 9.9-9.9"
       },
       {
         "id": 1089646,
         "fittingTypeId": 4,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
-        "value": "Uponor Smart press coupling 14x2.0-14x2.0"
+        "value": "S-Press   Coupling Brass 14-14"
       },
       {
         "id": 1039946,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
-        "value": "Uponor S-Press PLUS tee PPSU 25-25-25"
+        "value": "S-Press PLUS  Tee PPSU 25-25-25"
       },
       {
         "id": 1039945,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 5,
-        "value": "Uponor S-Press PLUS tee PPSU 20-20-20"
+        "value": "S-Press PLUS  Tee PPSU 20-20-20"
       },
       {
         "id": 1039955,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor S-Press PLUS tee red. PPSU 25-16-25"
+        "value": "S-Press PLUS  Tee red. PPSU 25-16-25"
       },
       {
         "id": 1039953,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor S-Press PLUS tee red. PPSU 25-16-16"
+        "value": "S-Press PLUS  Tee red. PPSU 25-16-16"
       },
       {
         "id": 1039950,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor S-Press PLUS tee red. PPSU 20-16-20"
+        "value": "S-Press PLUS  Tee red. PPSU 20-16-20"
       },
       {
         "id": 1039949,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 2,
-        "value": "Uponor S-Press PLUS tee red. PPSU 20-16-16"
+        "value": "S-Press PLUS  Tee red. PPSU 20-16-16"
       },
       {
         "id": 1039939,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor S-Press PLUS reducer PPSU 25-20"
+        "value": "S-Press PLUS  Reducer PPSU 25-20"
       },
       {
         "id": 1039938,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor S-Press PLUS reducer PPSU 25-16"
+        "value": "S-Press PLUS  Reducer PPSU 25-16"
       },
       {
         "id": 1039937,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 3,
-        "value": "Uponor S-Press PLUS reducer PPSU 20-16"
+        "value": "S-Press PLUS  Reducer PPSU 20-16"
       },
       {
         "id": 1039935,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor S-Press PLUS coupling PPSU 25-25"
+        "value": "S-Press PLUS  Coupling PPSU 25-25"
       },
       {
         "id": 1039934,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor S-Press PLUS coupling PPSU 20-20"
+        "value": "S-Press PLUS  Coupling PPSU 20-20"
       },
       {
         "id": 1039933,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 1,
         "fittingKindId": 1,
-        "value": "Uponor S-Press PLUS coupling PPSU 16-16"
+        "value": "S-Press PLUS  Coupling PPSU 16-16"
       },
       {
         "id": 1070562,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 5,
-        "value": "Uponor S-Press PLUS tee 25-25-25"
+        "value": "S-Press PLUS  Tee Brass 25-25-25"
       },
       {
         "id": 1070561,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 5,
-        "value": "Uponor S-Press PLUS tee 20-20-20"
+        "value": "S-Press PLUS  Tee Brass 20-20-20"
       },
       {
         "id": 1070574,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
-        "value": "Uponor S-Press PLUS tee red. 25-16-25"
+        "value": "S-Press PLUS  Tee red. Brass 25-16-25"
       },
       {
         "id": 1070572,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
-        "value": "Uponor S-Press PLUS tee red. 25-16-16"
+        "value": "S-Press PLUS  Tee red. Brass 25-16-16"
       },
       {
         "id": 1070566,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
-        "value": "Uponor S-Press PLUS tee red. 20-16-20"
+        "value": "S-Press PLUS  Tee red. Brass 20-16-20"
       },
       {
         "id": 1070567,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 2,
-        "value": "Uponor S-Press PLUS tee red. 20-16-16"
+        "value": "S-Press PLUS  Tee red. Brass 20-16-16"
       },
       {
         "id": 1070554,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
-        "value": "Uponor S-Press PLUS reducer 25-20"
+        "value": "S-Press PLUS  Reducer Brass 25-20"
       },
       {
         "id": 1070553,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
-        "value": "Uponor S-Press PLUS reducer 25-16"
+        "value": "S-Press PLUS  Reducer Brass 25-16"
       },
       {
         "id": 1070552,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 3,
-        "value": "Uponor S-Press PLUS reducer 20-16"
+        "value": "S-Press PLUS  Reducer Brass 20-16"
       },
       {
         "id": 1070549,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
-        "value": "Uponor S-Press PLUS coupling 25-25"
+        "value": "S-Press PLUS  Coupling Brass 25-25"
       },
       {
         "id": 1070548,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
-        "value": "Uponor S-Press PLUS coupling 20-20"
+        "value": "S-Press PLUS  Coupling Brass 20-20"
       },
       {
         "id": 1070547,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
-        "value": "Uponor S-Press PLUS coupling 16-16"
+        "value": "S-Press PLUS  Coupling Brass 16-16"
       },
       {
         "id": 1070638,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
-        "value": "Uponor S-Press PLUS tap elbow M 16-Rp3/8\"FT"
+        "value": "S-Press PLUS  Coupling Brass 16-Rp3/8\"FT"
       },
       {
         "id": 1070545,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 6,
-        "value": "Uponor S-Press PLUS elbow 45deg"
+        "value": "S-Press PLUS  Elbow 45° Brass 25-25"
       },
       {
         "id": 1046908,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 4,
-        "value": "Uponor S-Press elbow 40-40"
+        "value": "S-Press PLUS  Elbow 90° Brass 40-40"
       },
       {
         "id": 1046932,
         "fittingTypeId": 5,
         "fittingRawMaterialId": 2,
         "fittingKindId": 1,
-        "value": "Uponor S-Press coupling 40-40"
+        "value": "S-Press PLUS  Coupling Brass 40-40"
       },
       {
         "id": 1033648,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 5,
-        "value": "Uponor Tee 75-75-75"
+        "value": "HDPE  Tee HDPE 75-75-75"
       },
       {
         "id": 1033649,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 5,
-        "value": "Uponor Tee 110-110-110"
+        "value": "HDPE  Tee HDPE 110-110-110"
       },
       {
         "id": 1033650,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 5,
-        "value": "Uponor Tee 160-160-160"
+        "value": "HDPE  Tee HDPE 160-160-160"
       },
       {
         "id": 9999999,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 2,
-        "value": "Uponor Meltaway single manifold 160-25-160"
+        "value": "HDPE  Tee red. HDPE 160-25-160"
       },
       {
         "id": 9999998,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 2,
-        "value": "Uponor Meltaway single manifold 110-25-110"
+        "value": "HDPE  Tee red. HDPE 110-25-110"
       },
       {
         "id": 9999997,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 2,
-        "value": "Uponor Meltaway single manifold 75-25-75"
+        "value": "HDPE  Tee red. HDPE 75-25-75"
       },
       {
         "id": 9999996,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 4,
-        "value": "Uponor Elbow 75-75"
+        "value": "HDPE  Elbow 90° HDPE 75-75"
       },
       {
         "id": 1033653,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 4,
-        "value": "Uponor Elbow 110-110"
+        "value": "HDPE  Elbow 90° HDPE 110-110"
       },
       {
         "id": 1033654,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 4,
-        "value": "Uponor Elbow 160-160"
+        "value": "HDPE  Elbow 90° HDPE 160-160"
       },
       {
         "id": 1033657,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 3,
-        "value": "Uponor Red 160-110"
+        "value": "HDPE  Reducer HDPE 160-110"
       },
       {
         "id": 9999995,
         "fittingTypeId": 6,
-        "fittingRawMaterialId": 4,
+        "fittingRawMaterialId": 3,
         "fittingKindId": 3,
-        "value": "Uponor Red 110-75"
+        "value": "HDPE  Reducer HDPE 110-75"
       },
       {
         "id": 1005265,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Minitec adapter male thread. ring"
+        "value": "Q&E  Adapter Brass 9.9-R1/2\"MT"
       },
       {
         "id": 1023003,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread 16-R1/2\"MT"
+        "value": "Q&E  Adapter Brass 16-R1/2\"MT"
       },
       {
         "id": 1023004,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread 16-R3/4\"MT"
+        "value": "Q&E  Adapter Brass 16-R3/4\"MT"
       },
       {
         "id": 1023005,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread 20-R1/2\"MT"
+        "value": "Q&E  Adapter Brass 20-R1/2\"MT"
       },
       {
         "id": 1023006,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread 20-R3/4\"MT"
+        "value": "Q&E  Adapter Brass 20-R3/4\"MT"
       },
       {
         "id": 1023007,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread 25-R3/4\"MT"
+        "value": "Q&E  Adapter Brass 25-R3/4\"MT"
       },
       {
         "id": 1023008,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread 25-R1\"MT"
+        "value": "Q&E  Adapter Brass 25-R1\"MT"
       },
       {
         "id": 1047191,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread 32-R1\"MT"
+        "value": "Q&E  Adapter Brass 32-R1\"MT"
       },
       {
         "id": 1085077,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread PL/DR 40-R1_1/4\"MT "
+        "value": "Q&E  Adapter Brass 40-R1_1/4\"MT"
       },
       {
         "id": 1085076,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread PL/DR 50-R1_1/2\"MT"
+        "value": "Q&E  Adapter Brass 50-R1_1/2\"MT"
       },
       {
         "id": 1085075,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread PL/DR 63-R2\"MT"
+        "value": "Q&E  Adapter Brass 63-R2\"MT"
       },
       {
         "id": 1085074,
         "fittingTypeId": 2,
         "fittingRawMaterialId": 2,
         "fittingKindId": 7,
-        "value": "Uponor Q&E adapter male thread PL/DR 75-R2_1/2\"MT"
+        "value": "Q&E  Adapter Brass 75-R2_1/2\"MT"
+      },
+      {
+        "id": 1039958,
+        "fittingTypeId": 5,
+        "fittingRawMaterialId": 1,
+        "fittingKindId": 2,
+        "value": "S-Press PLUS  Tee red. PPSU 32-16-32"
+      },
+      {
+        "id": 1039957,
+        "fittingTypeId": 5,
+        "fittingRawMaterialId": 1,
+        "fittingKindId": 2,
+        "value": "S-Press PLUS  Tee red. PPSU 25-20-25"
+      },
+      {
+        "id": 1039956,
+        "fittingTypeId": 5,
+        "fittingRawMaterialId": 1,
+        "fittingKindId": 2,
+        "value": "S-Press PLUS  Tee red. PPSU 25-20-20"
+      },
+      {
+        "id": 1039940,
+        "fittingTypeId": 5,
+        "fittingRawMaterialId": 1,
+        "fittingKindId": 3,
+        "value": "S-Press PLUS  Reducer PPSU 32-25"
+      },
+      {
+        "id": 1063934,
+        "fittingTypeId": 2,
+        "fittingRawMaterialId": 2,
+        "fittingKindId": 3,
+        "value": "Q&E  Reducer Brass 40-20"
+      },
+      {
+        "id": 1039932,
+        "fittingTypeId": 5,
+        "fittingRawMaterialId": 1,
+        "fittingKindId": 4,
+        "value": "S-Press PLUS  Elbow 90° PPSU 32-32"
       }
     ],
     "templatesConfiguration": [
@@ -5971,105 +4729,6 @@
             "count": 1
           }
         ]
-      }
-    ]
-  },
-  "response1": {
-    "manifold": {
-      "id": 10,
-      "fluidId": 1,
-      "typeId": 9,
-      "segments": [
-        {
-          "id": 1,
-          "connectionType": 1,
-          "heatingEnable": true,
-          "coolingEnable": true,
-          "elements": [
-            {
-              "id": 1,
-              "type": "pipe",
-              "data": {
-                "length": 34,
-                "typeId": 18,
-                "subzone": 1
-              }
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "connectionType": 1,
-          "heatingEnable": true,
-          "coolingEnable": true,
-          "elements": [
-            {
-              "id": 1,
-              "type": "pipe",
-              "data": {
-                "length": 344,
-                "typeId": 18,
-                "subzone": 1
-              }
-            }
-          ]
-        }
-      ]
-    },
-    "subzones": [
-      {
-        "id": 1,
-        "modeHeating": {
-          "enable": true,
-          "internalTemperature": 21,
-          "supplyTemperature": 35,
-          "returnTemperature": 30,
-          "qUpwards": 45,
-          "qDownwards": 2
-        },
-        "modeCooling": {
-          "enable": true,
-          "internalTemperature": 26,
-          "supplyTemperature": 16,
-          "returnTemperature": 19,
-          "qUpwards": 20,
-          "qDownwards": 2
-        },
-        "pipe": {
-          "id": 18,
-          "insulation": {
-            "thikness": 0,
-            "pipeLambda": 0
-          },
-          "spacing": 200
-        }
-      },
-      {
-        "id": 1,
-        "modeHeating": {
-          "enable": true,
-          "internalTemperature": 21,
-          "supplyTemperature": 35,
-          "returnTemperature": 30,
-          "qUpwards": 45,
-          "qDownwards": 2
-        },
-        "modeCooling": {
-          "enable": true,
-          "internalTemperature": 26,
-          "supplyTemperature": 16,
-          "returnTemperature": 19,
-          "qUpwards": 20,
-          "qDownwards": 2
-        },
-        "pipe": {
-          "id": 18,
-          "insulation": {
-            "thikness": 0,
-            "pipeLambda": 0
-          },
-          "spacing": 200
-        }
       }
     ]
   }
