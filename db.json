@@ -78,15 +78,15 @@
   ],
   "projects": [
     {
-      "caseNumber": "2",
-      "name": "2",
-      "deadline": "2023-11-23T23:00:00.000Z",
+      "caseNumber": "test1",
+      "name": "test1",
+      "deadline": "2023-11-30T23:00:00.000Z",
       "country": "Austria (AUT)",
       "version": "1",
-      "currentTitle": "2 2 Austria (AUT) ver. 1",
+      "currentTitle": "test1 test1 Austria (AUT) ver. 1",
       "designer": "DeSi",
       "printLanguage": "German",
-      "updateDate": "2023-11-18T23:42:55.440Z",
+      "updateDate": "2023-12-01T08:20:04.091Z",
       "systems": [
         1,
         4,
@@ -103,33 +103,81 @@
           "system": 4,
           "comment": "",
           "heating": true,
-          "cooling": true,
-          "pipe": 2,
+          "cooling": false,
+          "pipe": 14,
+          "pipeSpacing": "233",
+          "heatingTi": "34",
+          "heatingTs": "55",
+          "heatingTr": "34",
+          "heatingQu": "23",
+          "heatingQd": "4",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
+          "thickness": "",
+          "lambda": "",
+          "insulation": false
+        },
+        {
+          "id": 2,
+          "position": 2,
+          "no": "20",
+          "system": 4,
+          "comment": "",
+          "heating": true,
+          "cooling": false,
+          "pipe": 18,
           "pipeSpacing": "200",
           "heatingTi": "20",
-          "heatingTs": "56",
+          "heatingTs": "50",
           "heatingTr": "45",
-          "heatingQu": "3",
-          "heatingQd": "4",
-          "coolingTi": "26",
-          "coolingTs": "16",
-          "coolingTr": "19",
-          "coolingQu": "5",
-          "coolingQd": "6",
+          "heatingQu": "50",
+          "heatingQd": "5",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
+          "thickness": "",
+          "lambda": "",
+          "insulation": false
+        },
+        {
+          "id": 3,
+          "position": 3,
+          "no": "25",
+          "system": 4,
+          "comment": "",
+          "heating": true,
+          "cooling": false,
+          "pipe": 19,
+          "pipeSpacing": "200",
+          "heatingTi": "20",
+          "heatingTs": "50",
+          "heatingTr": "45",
+          "heatingQu": "50",
+          "heatingQd": "5",
+          "coolingTi": "",
+          "coolingTs": "",
+          "coolingTr": "",
+          "coolingQu": "",
+          "coolingQd": "",
           "thickness": "",
           "lambda": "",
           "insulation": false
         }
       ],
       "manifolds": [
-        11
+        1
       ],
-      "creationDate": "2023-11-18T23:42:55.440Z",
+      "creationDate": "2023-12-01T08:20:04.091Z",
       "manage": {
         "creator": "admin",
         "status": 0
       },
-      "id": 9
+      "id": 1
     }
   ],
   "lastProjects": [
@@ -137,10 +185,10 @@
       "id": "admin",
       "projects": [
         {
-          "id": 9,
-          "title": "2 2 Austria (AUT) ver. 1",
-          "updateDate": "2023-11-18T23:42:55.440Z",
-          "touchDate": "2023-11-19T00:19:01.624Z"
+          "id": 1,
+          "title": "test1 test1 Austria (AUT) ver. 1",
+          "updateDate": "2023-12-01T08:20:04.091Z",
+          "touchDate": "2023-12-01T10:12:41.997Z"
         }
       ]
     }
@@ -156,26 +204,265 @@
       "position": 1,
       "segments": [
         {
-          "terminalUnitData": null,
-          "details": null,
           "id": 1,
           "position": 1,
           "no": "1.1",
+          "details": {
+            "firstRowEnabled": false,
+            "rowsData": [
+              {
+                "id": 1,
+                "position": 1,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [],
+                "fittingsFeedPipes2": [],
+                "subzoneId": 1,
+                "subzoneFeedPipesId": 1
+              },
+              {
+                "id": 2,
+                "position": 2,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [],
+                "fittingsFeedPipes2": [],
+                "subzoneId": 1,
+                "subzoneFeedPipesId": 1
+              },
+              {
+                "id": 3,
+                "position": 3,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [],
+                "fittingsFeedPipes2": [],
+                "subzoneId": 1,
+                "subzoneFeedPipesId": 1
+              }
+            ]
+          },
           "room": "",
           "comment": "",
           "system": 4,
           "heating": true,
-          "cooling": true,
-          "connectionType": 1,
-          "pipeLengthToManifold": 3,
+          "cooling": false,
+          "connectionType": 2,
+          "pipeLengthToManifold": "3",
           "segmentSource": 1,
-          "variant": 1,
+          "variant": 4,
           "loopPanelsSubzoneId": 1,
           "pipesBetweenPanelsSubzoneId": null,
-          "feedPipesSubzoneId": null
+          "feedPipesSubzoneId": 1,
+          "terminalUnitData": null,
+          "type": 2
+        },
+        {
+          "id": 2,
+          "position": 2,
+          "no": "1.2",
+          "details": {
+            "pipeLength": "",
+            "feedPipeLength": "",
+            "feedPipesLength1": "",
+            "feedPipesLength2": "",
+            "fittings": [],
+            "fittingsFeedPipes1": [],
+            "fittingsFeedPipes2": []
+          },
+          "room": "",
+          "comment": "",
+          "system": 4,
+          "heating": true,
+          "cooling": false,
+          "connectionType": 1,
+          "pipeLengthToManifold": "3",
+          "segmentSource": 2,
+          "variant": 2,
+          "loopPanelsSubzoneId": 1,
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": 1,
+          "terminalUnitData": null,
+          "type": 1
+        },
+        {
+          "id": 3,
+          "position": 3,
+          "no": "1.3",
+          "details": {
+            "firstRowEnabled": true,
+            "rowsData": [
+              {
+                "id": 1,
+                "position": 1,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [
+                  {
+                    "id": 1008676,
+                    "count": 1
+                  }
+                ],
+                "fittingsFeedPipes2": [
+                  {
+                    "id": 1008676,
+                    "count": 1
+                  }
+                ],
+                "subzoneId": 2,
+                "subzoneFeedPipesId": 3
+              },
+              {
+                "id": 2,
+                "position": 2,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [
+                  {
+                    "id": 1008691,
+                    "count": 1
+                  }
+                ],
+                "fittingsFeedPipes2": [
+                  {
+                    "id": 1008691,
+                    "count": 1
+                  }
+                ],
+                "subzoneId": 2,
+                "subzoneFeedPipesId": 3
+              },
+              {
+                "id": 3,
+                "position": 3,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [
+                  {
+                    "id": 1008691,
+                    "count": 1
+                  }
+                ],
+                "fittingsFeedPipes2": [
+                  {
+                    "id": 1008691,
+                    "count": 1
+                  }
+                ],
+                "subzoneId": 2,
+                "subzoneFeedPipesId": 3
+              }
+            ]
+          },
+          "room": "",
+          "comment": "",
+          "system": 4,
+          "heating": true,
+          "cooling": false,
+          "connectionType": 2,
+          "pipeLengthToManifold": "3",
+          "segmentSource": 2,
+          "variant": 4,
+          "loopPanelsSubzoneId": 2,
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": 3,
+          "terminalUnitData": null,
+          "type": 2
+        },
+        {
+          "id": 4,
+          "position": 4,
+          "no": "1.4",
+          "details": {
+            "firstRowEnabled": true,
+            "rowsData": [
+              {
+                "id": 1,
+                "position": 1,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [],
+                "fittingsFeedPipes2": [],
+                "subzoneId": 2,
+                "subzoneFeedPipesId": 3
+              },
+              {
+                "id": 2,
+                "position": 2,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [
+                  {
+                    "id": 1008703,
+                    "count": 1
+                  }
+                ],
+                "fittingsFeedPipes2": [
+                  {
+                    "id": 1008703,
+                    "count": 1
+                  }
+                ],
+                "subzoneId": 2,
+                "subzoneFeedPipesId": 3
+              },
+              {
+                "id": 3,
+                "position": 3,
+                "pipeLength": "",
+                "fittings": [],
+                "lengthFeedPipes1": "",
+                "lengthFeedPipes2": "",
+                "fittingsFeedPipes1": [
+                  {
+                    "id": 1008691,
+                    "count": 1
+                  }
+                ],
+                "fittingsFeedPipes2": [
+                  {
+                    "id": 1008691,
+                    "count": 1
+                  }
+                ],
+                "subzoneId": 2,
+                "subzoneFeedPipesId": 3
+              }
+            ]
+          },
+          "room": "",
+          "comment": "",
+          "system": 4,
+          "heating": true,
+          "cooling": false,
+          "connectionType": 2,
+          "pipeLengthToManifold": "3",
+          "segmentSource": 2,
+          "variant": 4,
+          "loopPanelsSubzoneId": 2,
+          "pipesBetweenPanelsSubzoneId": null,
+          "feedPipesSubzoneId": 3,
+          "terminalUnitData": null,
+          "type": 2
         }
       ],
-      "id": 11
+      "id": 1
     }
   ],
   "userSettingsDictionaries": [
@@ -280,6 +567,16 @@
         "value": "Terminal unit"
       }
     ],
+    "connectionTypes": [
+      {
+        "id": 1,
+        "value": "classic"
+      },
+      {
+        "id": 2,
+        "value": "tichelmann"
+      }
+    ],
     "fluids": [
       {
         "id": 1,
@@ -304,11 +601,11 @@
       },
       {
         "id": 2,
-        "value": "PEX-Xa"
+        "value": "PE-Xa"
       },
       {
         "id": 3,
-        "value": "PEX-Xb"
+        "value": "PE-Xb"
       },
       {
         "id": 4,
@@ -478,113 +775,12 @@
       {
         "id": 32,
         "pipeTypeId": 5,
-        "value": "110x6,8"
+        "value": "110x6,6"
       },
       {
         "id": 33,
         "pipeTypeId": 5,
-        "value": "160x6,8"
-      }
-    ],
-    "panelParameters": [
-      {
-        "id": 1,
-        "value": [
-          {
-            "id": 1,
-            "pipeLength": 9.6,
-            "areaHeating": 0.26,
-            "areaCooling": 0.26
-          },
-          {
-            "id": 2,
-            "pipeLength": 13.6,
-            "areaHeating": 0.37,
-            "areaCooling": 0.37
-          },
-          {
-            "id": 3,
-            "pipeLength": 17.6,
-            "areaHeating": 0.48,
-            "areaCooling": 0.48
-          },
-          {
-            "id": 4,
-            "pipeLength": 21.6,
-            "areaHeating": 0.6,
-            "areaCooling": 0.6
-          },
-          {
-            "id": 5,
-            "pipeLength": 25.6,
-            "areaHeating": 0.71,
-            "areaCooling": 0.71
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "value": [
-          {
-            "id": 1,
-            "pipeLength": 16.9,
-            "areaHeating": 0.8,
-            "areaCooling": 0.68
-          },
-          {
-            "id": 2,
-            "pipeLength": 20.9,
-            "areaHeating": 1,
-            "areaCooling": 0.85
-          },
-          {
-            "id": 3,
-            "pipeLength": 24.9,
-            "areaHeating": 1.2,
-            "areaCooling": 1.02
-          },
-          {
-            "id": 4,
-            "pipeLength": 28.9,
-            "areaHeating": 1.4,
-            "areaCooling": 1.19
-          },
-          {
-            "id": 5,
-            "pipeLength": 32.9,
-            "areaHeating": 1.6,
-            "areaCooling": 1.36
-          },
-          {
-            "id": 6,
-            "pipeLength": 36.9,
-            "areaHeating": 1.8,
-            "areaCooling": 1.53
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "value": [
-          {
-            "id": 1,
-            "pipeLength": 0.8,
-            "areaHeating": 0.5,
-            "areaCooling": 0.5
-          },
-          {
-            "id": 2,
-            "pipeLength": 1.2,
-            "areaHeating": 0.75,
-            "areaCooling": 0.75
-          },
-          {
-            "id": 3,
-            "pipeLength": 2,
-            "areaHeating": 1.25,
-            "areaCooling": 1.25
-          }
-        ]
+        "value": "160x9,6"
       }
     ],
     "panels": [
@@ -3497,42 +3693,36 @@
     "templatesFittingsConfiguration": [
       {
         "fittingConfigurationId": 1,
-        "classicFeedPipesSupply": {
-          "id": 1039937,
-          "count": 1
-        },
-        "classicFeedPipesReturn": {
-          "id": 1039937,
-          "count": 1
-        },
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
-        "tichelmannFeedPipesSupply2": null,
-        "tichelmannFeedPipesReturn2": null,
-        "tichelmannFeedPipesSupply3": null,
-        "tichelmannFeedPipesReturn3": null
+        "classicFeedPipesSupply": [
+          {
+            "id": 1039937,
+            "count": 1
+          }
+        ],
+        "classicFeedPipesReturn": [
+          {
+            "id": 1039937,
+            "count": 1
+          }
+        ]
       },
       {
         "fittingConfigurationId": 2,
-        "classicFeedPipesSupply": {
-          "id": 1048545,
-          "count": 1
-        },
-        "classicFeedPipesReturn": {
-          "id": 1048545,
-          "count": 1
-        },
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
-        "tichelmannFeedPipesSupply2": null,
-        "tichelmannFeedPipesReturn2": null,
-        "tichelmannFeedPipesSupply3": null,
-        "tichelmannFeedPipesReturn3": null
+        "classicFeedPipesSupply": [
+          {
+            "id": 1048545,
+            "count": 1
+          }
+        ],
+        "classicFeedPipesReturn": [
+          {
+            "id": 1048545,
+            "count": 1
+          }
+        ]
       },
       {
         "fittingConfigurationId": 3,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1039937,
@@ -3572,10 +3762,6 @@
       },
       {
         "fittingConfigurationId": 4,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
         "tichelmannFeedPipesSupply2": [
           {
             "id": 1039949,
@@ -3603,10 +3789,6 @@
       },
       {
         "fittingConfigurationId": 5,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
         "tichelmannFeedPipesSupply2": [
           {
             "id": 1048553,
@@ -3634,8 +3816,6 @@
       },
       {
         "fittingConfigurationId": 6,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1039938,
@@ -3675,10 +3855,6 @@
       },
       {
         "fittingConfigurationId": 7,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
         "tichelmannFeedPipesSupply2": [
           {
             "id": 1039953,
@@ -3706,8 +3882,6 @@
       },
       {
         "fittingConfigurationId": 8,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1039940,
@@ -3763,42 +3937,36 @@
       },
       {
         "fittingConfigurationId": 9,
-        "classicFeedPipesSupply": {
-          "id": 1020518,
-          "count": 1
-        },
-        "classicFeedPipesReturn": {
-          "id": 1020518,
-          "count": 1
-        },
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
-        "tichelmannFeedPipesSupply2": null,
-        "tichelmannFeedPipesReturn2": null,
-        "tichelmannFeedPipesSupply3": null,
-        "tichelmannFeedPipesReturn3": null
+        "classicFeedPipesSupply": [
+          {
+            "id": 1020518,
+            "count": 1
+          }
+        ],
+        "classicFeedPipesReturn": [
+          {
+            "id": 1020518,
+            "count": 1
+          }
+        ]
       },
       {
         "fittingConfigurationId": 10,
-        "classicFeedPipesSupply": {
-          "id": 1063939,
-          "count": 1
-        },
-        "classicFeedPipesReturn": {
-          "id": 1063939,
-          "count": 1
-        },
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
-        "tichelmannFeedPipesSupply2": null,
-        "tichelmannFeedPipesReturn2": null,
-        "tichelmannFeedPipesSupply3": null,
-        "tichelmannFeedPipesReturn3": null
+        "classicFeedPipesSupply": [
+          {
+            "id": 1063939,
+            "count": 1
+          }
+        ],
+        "classicFeedPipesReturn": [
+          {
+            "id": 1063939,
+            "count": 1
+          }
+        ]
       },
       {
         "fittingConfigurationId": 11,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1063939,
@@ -3838,8 +4006,6 @@
       },
       {
         "fittingConfigurationId": 12,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1020518,
@@ -3879,25 +4045,21 @@
       },
       {
         "fittingConfigurationId": 13,
-        "classicFeedPipesSupply": {
-          "id": 1063933,
-          "count": 1
-        },
-        "classicFeedPipesReturn": {
-          "id": 1063933,
-          "count": 1
-        },
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
-        "tichelmannFeedPipesSupply2": null,
-        "tichelmannFeedPipesReturn2": null,
-        "tichelmannFeedPipesSupply3": null,
-        "tichelmannFeedPipesReturn3": null
+        "classicFeedPipesSupply": [
+          {
+            "id": 1063933,
+            "count": 1
+          }
+        ],
+        "classicFeedPipesReturn": [
+          {
+            "id": 1063933,
+            "count": 1
+          }
+        ]
       },
       {
         "fittingConfigurationId": 14,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1063933,
@@ -3937,8 +4099,6 @@
       },
       {
         "fittingConfigurationId": 15,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1020518,
@@ -3978,8 +4138,6 @@
       },
       {
         "fittingConfigurationId": 16,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1063929,
@@ -4027,8 +4185,6 @@
       },
       {
         "fittingConfigurationId": 17,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1008676,
@@ -4068,10 +4224,6 @@
       },
       {
         "fittingConfigurationId": 18,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
         "tichelmannFeedPipesSupply2": [
           {
             "id": 1008703,
@@ -4099,8 +4251,6 @@
       },
       {
         "fittingConfigurationId": 19,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1039939,
@@ -4140,10 +4290,6 @@
       },
       {
         "fittingConfigurationId": 20,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
         "tichelmannFeedPipesSupply2": [
           {
             "id": 1039956,
@@ -4171,8 +4317,6 @@
       },
       {
         "fittingConfigurationId": 21,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1001240,
@@ -4228,8 +4372,6 @@
       },
       {
         "fittingConfigurationId": 22,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1008676,
@@ -4277,8 +4419,6 @@
       },
       {
         "fittingConfigurationId": 23,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1008678,
@@ -4342,8 +4482,6 @@
       },
       {
         "fittingConfigurationId": 24,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1063934,
@@ -4391,8 +4529,6 @@
       },
       {
         "fittingConfigurationId": 25,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1001240,
@@ -4440,10 +4576,6 @@
       },
       {
         "fittingConfigurationId": 26,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
-        "tichelmannFeedPipesSupply1": null,
-        "tichelmannFeedPipesReturn1": null,
         "tichelmannFeedPipesSupply2": [
           {
             "id": 1001426,
@@ -4479,8 +4611,6 @@
       },
       {
         "fittingConfigurationId": 27,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1008678,
@@ -4536,8 +4666,6 @@
       },
       {
         "fittingConfigurationId": 28,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 1001240,
@@ -4585,8 +4713,6 @@
       },
       {
         "fittingConfigurationId": 29,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 9999997,
@@ -4634,8 +4760,6 @@
       },
       {
         "fittingConfigurationId": 30,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 9999998,
@@ -4683,8 +4807,6 @@
       },
       {
         "fittingConfigurationId": 31,
-        "classicFeedPipesSupply": null,
-        "classicFeedPipesReturn": null,
         "tichelmannFeedPipesSupply1": [
           {
             "id": 9999999,
