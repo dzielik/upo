@@ -188,7 +188,7 @@
           "id": 1,
           "title": "test1 test1 Austria (AUT) ver. 1",
           "updateDate": "2023-12-01T08:20:04.091Z",
-          "touchDate": "2023-12-01T10:12:41.997Z"
+          "touchDate": "2023-12-01T08:29:20.945Z"
         }
       ]
     }
@@ -508,11 +508,11 @@
     "systems": [
       {
         "id": 1,
-        "value": "ThermatopM"
+        "value": "Thermatop M"
       },
       {
         "id": 2,
-        "value": "ThermatopS"
+        "value": "Thermatop S"
       },
       {
         "id": 3,
@@ -548,7 +548,7 @@
       },
       {
         "id": 11,
-        "value": "Football pitch"
+        "value": "Pitch"
       },
       {
         "id": 12,
@@ -786,59 +786,73 @@
     "panels": [
       {
         "id": 1090933,
-        "value": "Thermatop M 950mm"
+        "value": "Thermatop M 950mm",
+        "pipeLength": 9.6
       },
       {
         "id": 1090934,
-        "value": "Thermatop M 1350mm"
+        "value": "Thermatop M 1350mm",
+        "pipeLength": 13.6
       },
       {
         "id": 1090935,
-        "value": "Thermatop M 1750mm"
+        "value": "Thermatop M 1750mm",
+        "pipeLength": 17.6
       },
       {
         "id": 1090936,
-        "value": "Thermatop M 2150mm"
+        "value": "Thermatop M 2150mm",
+        "pipeLength": 21.6
       },
       {
         "id": 1090937,
-        "value": "Thermatop M 2550mm"
+        "value": "Thermatop M 2550mm",
+        "pipeLength": 25.6
       },
       {
         "id": 1120851,
-        "value": "Thermatop S 2000mm"
+        "value": "Thermatop S 2000mm",
+        "pipeLength": 16.9
       },
       {
         "id": 1120852,
-        "value": "Thermatop S 2500mm"
+        "value": "Thermatop S 2500mm",
+        "pipeLength": 20.9
       },
       {
         "id": 1120853,
-        "value": "Thermatop S 3000mm"
+        "value": "Thermatop S 3000mm",
+        "pipeLength": 24.9
       },
       {
         "id": 1120854,
-        "value": "Thermatop S 3500mm"
+        "value": "Thermatop S 3500mm",
+        "pipeLength": 28.9
       },
       {
         "id": 1120855,
-        "value": "Thermatop S 4000mm"
+        "value": "Thermatop S 4000mm",
+        "pipeLength": 32.9
       },
       {
         "id": 1120856,
-        "value": "Thermatop S 4500mm"
+        "value": "Thermatop S 4500mm",
+        "pipeLength": 36.9
       },
       {
         "id": 1061173,
-        "value": "Renovis 800mm"
+        "value": "Renovis 800mm",
+        "pipeLength": 7.1
       },
       {
         "id": 1061172,
-        "value": "Renovis 1200mm"
+        "value": "Renovis 1200mm",
+        "pipeLength": 10.1
       },
       {
         "id": 1061171,
-        "value": "Renovis 2000mm"
+        "value": "Renovis 2000mm",
+        "pipeLength": 16.1
       }
     ],
     "manifoldType": [
@@ -905,6 +919,10 @@
       {
         "id": 16,
         "value": "Vario C FM"
+      },
+      {
+        "id": 17,
+        "value": "No manifold"
       }
     ],
     "fittingType": [
@@ -2022,24 +2040,12 @@
         "fittingDescription": null
       },
       {
-        "templateId": 2,
-        "systemId": 1,
-        "connectionTypeId": 1,
-        "variantId": 8,
-        "fittingConfigurationId": null,
-        "templateName": "TH-M Classic 2",
-        "loopPanel": 3,
-        "pipeBetweenPanels": 3,
-        "feedPipes": 3,
-        "fittingDescription": null
-      },
-      {
         "templateId": 3,
         "systemId": 1,
         "connectionTypeId": 1,
         "variantId": 8,
         "fittingConfigurationId": 1,
-        "templateName": "TH-M Classic 3",
+        "templateName": "TH-M Classic 2",
         "loopPanel": 3,
         "pipeBetweenPanels": 3,
         "feedPipes": 5,
@@ -2051,7 +2057,7 @@
         "connectionTypeId": 1,
         "variantId": 8,
         "fittingConfigurationId": 2,
-        "templateName": "TH-M Classic 4",
+        "templateName": "TH-M Classic 3",
         "loopPanel": 3,
         "pipeBetweenPanels": 3,
         "feedPipes": 5,
@@ -3575,7 +3581,7 @@
         "connectionTypeId": 1,
         "variantId": 1,
         "fittingConfigurationId": null,
-        "templateName": "ST Classic 1",
+        "templateName": "P Classic 1",
         "loopPanel": 19,
         "pipeBetweenPanels": null,
         "feedPipes": null,
@@ -3611,7 +3617,7 @@
         "connectionTypeId": 2,
         "variantId": 4,
         "fittingConfigurationId": 29,
-        "templateName": "ST Tich 1",
+        "templateName": "P Tich 1",
         "loopPanel": 19,
         "pipeBetweenPanels": null,
         "feedPipes": 31,
@@ -3647,7 +3653,7 @@
         "connectionTypeId": 2,
         "variantId": 4,
         "fittingConfigurationId": 30,
-        "templateName": "ST Tich 2",
+        "templateName": "P Tich 2",
         "loopPanel": 19,
         "pipeBetweenPanels": null,
         "feedPipes": 32,
@@ -3683,7 +3689,7 @@
         "connectionTypeId": 2,
         "variantId": 4,
         "fittingConfigurationId": 31,
-        "templateName": "ST Tich 3",
+        "templateName": "P Tich 3",
         "loopPanel": 19,
         "pipeBetweenPanels": null,
         "feedPipes": 33,
