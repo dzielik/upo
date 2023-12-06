@@ -71,6 +71,24 @@
       "gender": "female",
       "role": "",
       "isactive": true
+    },
+    {
+      "id": "Eliza",
+      "name": "Eliza",
+      "password": "Eliza123",
+      "email": "eliza@upo.pl",
+      "gender": "female",
+      "role": "",
+      "isactive": true
+    },
+    {
+      "id": "OlaB",
+      "name": "OlaB",
+      "password": "OlaB123",
+      "email": "ola.b@upo.pl",
+      "gender": "female",
+      "role": "",
+      "isactive": true
     }
   ],
   "role": [
@@ -154,6 +172,24 @@
       "countries": [
         "Austria (AUT)",
         "Germany (DE)"
+      ]
+    },
+    {
+      "id": "Eliza",
+      "designer": "Eliza Sarnacka",
+      "language": "English",
+      "countries": [
+        "Austria (AUT)",
+        "Germany (DE)"
+      ]
+    },
+    {
+      "id": "OlaB",
+      "designer": "Aleksandra Borusińska",
+      "language": "English",
+      "countries": [
+        "Austria (AUT)",
+        "Bulgaria (BG)"
       ]
     }
   ],
@@ -549,6 +585,14 @@
     },
     {
       "id": "Anna",
+      "projects": []
+    },
+    {
+      "id": "Eliza",
+      "projects": []
+    },
+    {
+      "id": "OlaB",
       "projects": []
     }
   ],
