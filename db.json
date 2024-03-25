@@ -61,7 +61,7 @@
       },
       {
         "id": 13,
-        "value": "For terminal unit"
+        "value": "Pipe embedded in structure"
       },
       {
         "id": 14,
@@ -70,6 +70,10 @@
       {
         "id": 15,
         "value": "Terminal unit"
+      },
+      {
+        "id": 16,
+        "value": "Other"
       }
     ],
     "connectionTypes": [
