@@ -3989,14 +3989,14 @@
       },
       {
          "fittingConfigurationId": 13,
-         "classicFeedPipesSupply": {
+         "classicFeedPipesSupply": [ {
             "id": 1063933,
             "count": 1
-         },
-         "classicFeedPipesReturn": {
+         }],
+         "classicFeedPipesReturn": [{
             "id": 1063933,
             "count": 1
-         }
+         }]
       },
       {
          "fittingConfigurationId": 14,
