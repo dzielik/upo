@@ -88,19 +88,19 @@
     ],
     "fluids": [
       {
-        "id": 1,
-        "value": "Water",
-        "type": "water"
+         "id": 1,
+         "value": "Propylene glycol",
+         "type": "glycol"
       },
       {
-        "id": 2,
-        "value": "Propylene glycol",
-        "type": "glycol"
+         "id": 2,
+         "value": "Ethylene glycol",
+         "type": "glycol"
       },
       {
         "id": 3,
-        "value": "Ethylene glycol",
-        "type": "glycol"
+        "value": "Water",
+        "type": "water"
       }
     ],
     "pipeType": [
